@@ -13,6 +13,7 @@ Parts:
   - New project
 - ArchW98 : USB key/SSD ext with no need of a host OS. 
   
+<br>
 
 ## Introduction (FR)
 Bienvenue sur ce projet, dont le but est de donner aux gens un moyen facile de lancer leurs jeux préférés sur une machine virtuelle Windows 98.
