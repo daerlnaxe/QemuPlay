@@ -1,6 +1,10 @@
 # QemuPlay
 Easy way to play on Windows 98 with qemu.
 
+FR/EN
+
+<br>
+
 ## Introduction (EN)
 Welcome to this project, which aims to give people an easy way to run their favourite games on a Windows 98 VM.
 
