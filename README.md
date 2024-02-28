@@ -40,5 +40,7 @@ Pour le moment je dois transférer tout mon travail depuis mes documents locaux.
 
 </details>
 
-Visit the Wiki / Rendez vous dans le Wiki
+<br>
+
+Visit the [Wiki](https://github.com/daerlnaxe/QemuPlay/wiki) / Rendez vous dans le [Wiki](https://github.com/daerlnaxe/QemuPlay/wiki)
 
