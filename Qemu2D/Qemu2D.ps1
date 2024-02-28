@@ -3,13 +3,13 @@
     Version: 0.1
     Date: 28/02/2024
 
-    Permet de lancer QEMU avec les paramètres nécessaires, en attendant de faire un petit programme.
+    Permet de lancer QEMU avec les paramÃ¨tres nÃ©cessaires, en attendant de faire un petit programme.
 #>
 
 
-# Récupération du chemin actuel
+# RÃ©cupÃ©ration du chemin actuel
 $folderPath=Split-Path $MyInvocation.MyCommand.Path -Parent
-write-host "Programme lancé depuis '$folderPath'"
+write-host "Programme lancÃ© depuis '$folderPath'"
 
 # 
 $qemuComm="qemu-system-x86_64.exe"
@@ -23,7 +23,7 @@ $config=$null
 ##
 if  (-not $( Test-Path -Path $configFile))
 {
-    write-host "Création du fichier de configuration"
+    write-host "CrÃ©ation du fichier de configuration"
     
     # Chemin de Qemu
     while($true)
@@ -53,12 +53,12 @@ if  (-not $( Test-Path -Path $configFile))
     }
 
        
-    # Création de l'objet config
+    # CrÃ©ation de l'objet config
     $config = New-Object -TypeName PSCustomObject
     $config | Add-Member -MemberType NoteProperty -Name "QemuPath" -Value "$qemuInstFolder"
     $config | Add-Member -MemberType NoteProperty -Name "CDRom" -Value "f:"
 
-    #Conversion + écriture
+    #Conversion + Ã©criture
     $config | ConvertTo-Json | Out-File $configFile
 
 
@@ -67,8 +67,8 @@ if  (-not $( Test-Path -Path $configFile))
 # Chargement de la configuration
 $config=Get-Content -Raw -Path $configFile | ConvertFrom-Json 
 
-## Vérifications
-### Chemin de l'éxécutable
+## VÃ©rifications
+### Chemin de l'Ã©xÃ©cutable
 if (-Not (Test-Path $(Join-Path $config.QemuPath -childpath $qemuComm)))
 {
     write-Host "Le chemin n'inclus pas le fichier qemu-system-x86_64.exe"
@@ -85,16 +85,16 @@ if (-Not( Test-Path $tmp))
       
        
 
-# chemin de l'éxécutable qemu
+# chemin de l'Ã©xÃ©cutable qemu
 $exePath=join-path $config.QemuPath -childpath $qemuComm
 
 
 
-# Paramétrage
+# ParamÃ©trage
 $args=$null
 Write-Host "Choix de lancement:"
-Write-Host "`t1) Sans réseau"
-Write-Host "`t2) Réseau mode bridge"
+Write-Host "`t1) Sans rÃ©seau"
+Write-Host "`t2) RÃ©seau mode bridge"
 While ($true)
 {
     $val=Read-Host -Prompt "Entrez votre choix (x: sortie)"
@@ -119,7 +119,7 @@ While ($true)
     if ($val -eq "1")
     {
 
-        # Ne pas oublier le caractère d'échappement ` si utilisation de "
+        # Ne pas oublier le caractÃ¨re d'Ã©chappement ` si utilisation de "
         $args= "-cpu pentium2 -m 256 -vga cirrus -drive format=raw,file=`"$hddPath`" -cdrom $cdromPath -device sb16 -nic none -usb -machine acpi=off -k fr-fr -no-reboot -display sdl "
         break
     }
