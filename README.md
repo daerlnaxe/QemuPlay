@@ -7,7 +7,9 @@ Visit the Wiki / Rendez vous dans le Wiki
 
 <br>
 
-## Introduction (EN)
+<details>
+  <summary>Introduction (EN)</summary>
+
 Welcome to this project, which aims to give people an easy way to run their favourite games on a Windows 98 VM.
 
 For the while i must transfert all my work from local documents, translate it.
@@ -19,9 +21,14 @@ Parts:
   - New project
 - ArchW98 : USB key/SSD ext with no need of a host OS. 
   
+
+</details>
+
 <br>
 
-## Introduction (FR)
+<details>
+  <summary>Introduction (FR)</summary>
+
 Bienvenue sur ce projet, dont le but est de donner aux gens un moyen facile de lancer leurs jeux préférés sur une machine virtuelle Windows 98.
 
 Pour le moment je dois transférer tout mon travail depuis mes documents locaux.
@@ -31,3 +38,5 @@ Pour le moment je dois transférer tout mon travail depuis mes documents locaux.
   - OldProject 
   - New project
 - ArchW98 : Clé USB/SSD ext ne nécéssitant aucun OS hôte.
+
+</details>
