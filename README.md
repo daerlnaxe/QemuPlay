@@ -3,7 +3,6 @@ Easy way to play on Windows 98 with qemu.
 
 FR/EN
 
-Visit the Wiki / Rendez vous dans le Wiki
 
 <br>
 
@@ -40,3 +39,6 @@ Pour le moment je dois transférer tout mon travail depuis mes documents locaux.
 - ArchW98 : Clé USB/SSD ext ne nécéssitant aucun OS hôte.
 
 </details>
+
+Visit the Wiki / Rendez vous dans le Wiki
+
