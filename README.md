@@ -3,6 +3,8 @@ Easy way to play on Windows 98 with qemu.
 
 FR/EN
 
+Visit the Wiki / Rendez vous dans le Wiki
+
 <br>
 
 ## Introduction (EN)
