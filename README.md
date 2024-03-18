@@ -32,8 +32,8 @@ Bienvenue sur ce projet, dont le but est de donner aux gens un moyen facile de l
 
 Pour le moment je dois transférer tout mon travail depuis mes documents locaux.
 
-- QEMU2D: permet de jouer uniquement à des jeux 2D (Baldur's Gate, Starcraft...)
-- QEMU3DFX : (Testé avec Unreal Tournament,  basé sur des développement tiers)
+- QEMU2D: mode émulation, permet de jouer uniquement à des jeux 2D (Baldur's Gate, Starcraft...)
+- QEMU3DFX : mode hyperviseur (Testé avec Unreal Tournament,  basé sur des développement tiers)
   - OldProject 
   - New project
 - ArchW98 : Clé USB/SSD ext ne nécéssitant aucun OS hôte.
