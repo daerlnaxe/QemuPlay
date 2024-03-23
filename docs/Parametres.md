@@ -1,45 +1,10 @@
 ---
-@mixin admon-color($color) {
-  color: darken($color, 15%);
-  background-color: lighten($color, 25%);
-  border-color: $color;
-}
-
-.admonition {
-  padding: 0 15px;
-  margin-bottom: 20px;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  text-align: left;
-  &-title {
-    font-weight: bold;
-    text-align: left;
-  }
-  &.note,
-  &.info,
-  &.tips {
-    $base-blue: #3498db;
-    @include admon-color($base-blue);
-  }
-  &.warning,
-  &.warn,
-  &.important {
-    $base-carrot: #e67e22;
-    @include admon-color($base-carrot);
-  }
-  &.danger,
-  &.critical {
-    $base-alizarin: #e74c3c;
-    @include admon-color($base-alizarin);
-  }
-}
----
----
 layout: default
 title: Home
 ---
 
-<div class="admonition note">
+
+<div class="admonition note" style="font-color=red;">
   <p class="admonition-title">Note</p>
   <p>Hello this is just a test.</p>
   <p>This is an another line.</p>
