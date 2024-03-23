@@ -1,3 +1,4 @@
+---
 @mixin admon-color($color) {
   color: darken($color, 15%);
   background-color: lighten($color, 25%);
@@ -32,6 +33,7 @@
     @include admon-color($base-alizarin);
   }
 }
+---
 
 <div class="admonition note">
   <p class="admonition-title">Note</p>
