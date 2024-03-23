@@ -34,6 +34,10 @@
   }
 }
 ---
+---
+layout: default
+title: Home
+---
 
 <div class="admonition note">
   <p class="admonition-title">Note</p>
