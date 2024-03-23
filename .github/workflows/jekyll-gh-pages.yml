@@ -33,7 +33,6 @@ jobs:
         uses: actions/jekyll-build-pages@v1
         with:
           remote_theme: pages-themes/minimal@v0.2.0
-          #source: ./
           source: ./Docs/
           destination: ./_site
       - name: Upload artifact
