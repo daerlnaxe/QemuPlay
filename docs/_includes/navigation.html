@@ -32,20 +32,107 @@
     <li>Qemu</li>
     <ul>
       {% for doc in site.html_pages %}
-      {% if doc.category == "qemu2d" %}
-        <li><a href=".{{ doc.url }}">{{ doc.title }} - {{ doc }}</a></li>
-      {% endif %}
+        {% if doc.category == "qemu2d" %}
+          <li><a href=".{{ doc.url }}">{{ doc.title }}</a></li>
+        {% endif %}
     {% endfor %}
      </ul>
 </ul>
-<hr>
+<!--hr>
 <ul>
   {% for doc in site %}
 
       <li> {{ doc  }}</li>
 
   {% endfor %}
+</ul-->
+related_posts
+<ul>
+  {% for doc in site.related_posts %}
+
+      <li> {{ doc  }}</li>
+
+  {% endfor %}
 </ul>
+<hr>
+categories
+<ul>
+  {% for doc in site.categories %}
+
+      <li> {{ doc  }}</li>
+
+  {% endfor %}
+</ul>
+<hr>
+collections
+<ul>
+  {% for doc in site.collections %}
+
+      <li> {{ doc  }}</li>
+
+  {% endfor %}
+</ul>
+<hr>
+<hr>
+static_files
+<ul>
+  {% for doc in site.static_files %}
+
+      <li> {{ doc  }}</li>
+
+  {% endfor %}
+</ul>
+<hr>
+pages
+<ul>
+  {% for doc in site.pages %}
+
+      <li> {{ doc  }}</li>
+
+  {% endfor %}
+</ul>
+<hr>
+collections_dir
+<ul>
+  {% for doc in site.collections_dir %}
+
+      <li> {{ doc  }}</li>
+
+  {% endfor %}
+</ul>
+<hr>
+
+
+posts
+source
+destination
+
+safe
+include
+exclude
+keep_files
+strict_front_matter
+show_drafts
+limit_posts
+future
+highlighter
+lsi
+excerpt_separator
+incremental
+detach
+port
+host
+baseurl
+permalink
+paginate_path
+defaults
+liquid
+title
+description
+url
+github
+
+
 </div>
 
 
