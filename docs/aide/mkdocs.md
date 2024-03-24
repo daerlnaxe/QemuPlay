@@ -1,10 +1,43 @@
+# Installation
+## Github
 Une fois déployé il faut penser à:
 - Aller dans settings
 - Aller sur pages
 - Choisir le fork utilisé pour pusher les fichiers
 
+<br>
 
-# Alerter (admonition)
+## Configuration
+### Navigation
+!!! warning "Les rubriques sont entre simple quote"
+
+```yaml
+nav:
+  - home: index.md
+  - aide:
+    - qemu : 
+```
+
+
+<br>
+
+# Avancé
+## Alerter (admonition)
+
+Types:
+- note
+- abstract
+- info
+- tip
+- success
+- question
+- warning
+- failure
+- danger
+- bug
+- example
+- quote
+
 ```
 !!! note "une note"
 ```
