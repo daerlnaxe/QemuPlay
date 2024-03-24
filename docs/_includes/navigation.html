@@ -43,24 +43,42 @@
     {% endfor %}
 </ul>
 
-  <h3>site</h3>
+  <h3>markdown</h3>
 <ul>
-    {% for doc in site.documents %}
+    {% for doc in site.markdown %}
 
         <li>{{ doc.title }} - {{ doc  }}</li>
 
     {% endfor %}
 </ul>
 
-<h3>site</h3>
+
+
+<h3>github</h3>
 <ul>
-    {% for doc in documents %}
+    {% for doc in site.github %}
 
         <li>{{ doc.title }} - {{ doc  }}</li>
 
     {% endfor %}
 </ul>
 
+
+
+
+
+
+
+<h3>html_pages</h3>
+<ul>
+    {% for doc in site.html_pages %}
+
+        <li>{{ doc.title }} - {{ doc  }}</li>
+
+    {% endfor %}
+</ul>
+
+documents est vide
 </div>
 
 
