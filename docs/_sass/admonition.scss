@@ -47,12 +47,12 @@ $admonitions:
 @each $name, $icon, $icon-color, $title-color in $admonitions {
     @if $icon-color {
         .admonition.#{$name} {
-            border-left-color: #{$icon-color};
+            border-left-color: blue;
         }
     }
     @if $title-color {
         .admonition.#{$name} .admonition-title {
-            background-color: #{$title-color};
+            background-color: red;
         }
     }
 
