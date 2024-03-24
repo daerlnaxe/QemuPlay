@@ -32,7 +32,7 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          remote_theme: pages-themes/minimal@v0.2.0
+          remote_theme: pages-themes/midnight@v0.2.0
           #source: ./
           source: ./docs/
           destination: ./_site
