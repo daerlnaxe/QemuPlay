@@ -32,48 +32,15 @@
   <a href="#">Link 4</a>
   <hr>
 
-  <h3>Getting Started</h3>
-<ul>
-    {% for doc in aide.qemu %}
-
-        <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-
-    {% endfor %}
-</ul>
-
-
 
   <h3>site</h3>
 <ul>
     {% for doc in site %}
 
-        <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
+        <li>{{ doc.title }} - {{ doc  }}</li>
 
     {% endfor %}
 </ul>
-
-
-
-<h3>_site</h3>
-<ul>
-    {% for doc in _site %}
-
-        <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-
-    {% endfor %}
-</ul>
-
-
-<h3>docs</h3>
-<ul>
-    {% for doc in docs %}
-
-        <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-
-    {% endfor %}
-</ul>
-
-
 
 
 
