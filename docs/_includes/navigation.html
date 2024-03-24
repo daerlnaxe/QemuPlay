@@ -57,5 +57,13 @@
       {% endif %}
     {% endfor %}
 </ul>
+<h3>Getting Started</h3>
+<ul>
+    {% for doc in site.docs.aide.qemu %}
+      {% if doc.category == "qemu2d" %}
+        <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+</ul>
 </div>
 
