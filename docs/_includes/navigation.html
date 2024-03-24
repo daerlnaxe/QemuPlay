@@ -25,22 +25,15 @@
 </style>
 
 <div class="vertical-menu">
-  <a href="./index.html" class="active">Home</a>
-  <a href="./aide/qemu/parametres.html">Paramètres</a>
-  <a href="#">Link 2</a>
-  <a href="#">Link 3</a>
-  <a href="#">Link 4</a>
-  <hr>
+<h2><a href="./index.html" class="active">Home</a></h2
 
-
-  
 <h3>Aide</h3>
 <ul>
     <li>Qemu</li>
     <ul>
       {% for doc in site.html_pages %}
       {% if doc.category == "qemu2d" %}
-        <li><a href=".{{ doc.url }}">{{ doc.title }}</a></li>
+        <li><a href=".{{ doc.url }}">{{ doc.title }} - doc</a></li>
       {% endif %}
     {% endfor %}
      </ul>
