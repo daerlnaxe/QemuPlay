@@ -47,7 +47,7 @@ Clients:
 
 ### Spice
 
-!!! succes "Le son transite parfaitement entre deux machines distantes"
+!!! success "Le son transite parfaitement entre deux machines distantes"
 
 <br>
 

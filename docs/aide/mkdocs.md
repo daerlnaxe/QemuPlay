@@ -44,7 +44,8 @@ Types:
 ### Une ligne
 !!! warning "Le contenu est obligatoirement entre `""`"
 
-
+  
+  
 ```
 !!! note "une note"
 ```
@@ -89,6 +90,9 @@ Version expandable (avec le + ouvert par défaut)
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
+  
+  
+### Exemples
 !!! example
 !!! note
 !!! abstract
@@ -101,6 +105,5 @@ Version expandable (avec le + ouvert par défaut)
 !!! danger
 !!! bug
 
-<br>
-
+  
 !!! quote
