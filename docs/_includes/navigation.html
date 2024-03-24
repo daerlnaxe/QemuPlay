@@ -43,9 +43,9 @@
 
 
 
-  <h3>Getting Started</h3>
+  <h3>site</h3>
 <ul>
-    {% for doc in site.aide.qemu %}
+    {% for doc in site %}
 
         <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
 
@@ -54,9 +54,9 @@
 
 
 
-<h3>Getting Started</h3>
+<h3>_site</h3>
 <ul>
-    {% for doc in _site.aide.qemu %}
+    {% for doc in _site %}
 
         <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
 
@@ -64,23 +64,20 @@
 </ul>
 
 
-<h3>Getting Started</h3>
+<h3>docs</h3>
 <ul>
-    {% for doc in site.docs.aide.qemu %}
+    {% for doc in docs %}
 
         <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
 
     {% endfor %}
 </ul>
+
+
+
+
+
 </div>
 
 
-<h3>Getting Started</h3>
-<ul>
-    {% for doc in _site.docs.aide.qemu %}
-
-        <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-
-    {% endfor %}
-</ul>
 
