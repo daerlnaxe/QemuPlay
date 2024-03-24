@@ -1,5 +1,4 @@
 ---
-layout: default
 Title: Parametres
 category: qemu2d
 order: 2
