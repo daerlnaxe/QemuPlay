@@ -17,3 +17,14 @@ Pour ajouter les admonitions (peut servir pour propre css)
 // Conserne le scss dans lequel on a mis le code
 @import "admonition";
 ```
+
+Voir le contenu du dossier racine:
+```
+<ul>
+    {% for doc in site %}
+
+        <li> {{ doc  }}</li>
+
+    {% endfor %}
+</ul>
+```

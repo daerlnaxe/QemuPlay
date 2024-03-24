@@ -35,14 +35,21 @@
 
   <h3>site</h3>
 <ul>
-    {% for doc in site %}
+    {% for doc in site.documents %}
 
         <li>{{ doc.title }} - {{ doc  }}</li>
 
     {% endfor %}
 </ul>
 
+<h3>site</h3>
+<ul>
+    {% for doc in documents %}
 
+        <li>{{ doc.title }} - {{ doc  }}</li>
+
+    {% endfor %}
+</ul>
 
 </div>
 
