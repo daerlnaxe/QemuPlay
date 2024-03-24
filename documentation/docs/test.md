@@ -1,13 +1,3 @@
-<!-- START doctoc -->
-on: push
-name: TOC Generator
-jobs:
-  generateTOC:
-    name: TOC Generator
-    runs-on: ubuntu-latest
-    steps:
-      - uses: technote-space/toc-generator@v4
-<!-- END doctoc -->
 
 # TODO
 - [ ] Vérifier dans le temps pour la taille du disque
