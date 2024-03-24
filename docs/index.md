@@ -3,15 +3,9 @@ allez !
 Nécessite markdown_extensions:   - admonition
 
 
-!!! un test
 
-!!! info une info
 
-!!! warning un warning
 
-!!! note "une note"
-
-!!! note une note
 
 !!! note
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
