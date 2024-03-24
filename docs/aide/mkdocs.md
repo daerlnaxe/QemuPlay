@@ -22,6 +22,7 @@ nav:
 
 
 <br>
+<hr>
 
 # Avancé
 ## Alerter (admonition)
@@ -40,21 +41,30 @@ Types:
 - example
 - quote
 
+### Une ligne
+!!! warning "Le contenu est obligatoirement entre `""`"
+
+
 ```
 !!! note "une note"
 ```
 !!! note "une note"
 
 
-```
-!!! note une note
-```
-!!! note une note
 
-
-## Blocks
+### Blocks
 ```
 !!! note
+
+    Le texte de ma note sur plusieurs lignes
+```
+
+!!! note "avec un titre"
+
+    Le texte de ma note sur plusieurs lignes
+
+```
+!!! note "avec un titre"
 
     Le texte de ma note sur plusieurs lignes
 ```
@@ -79,8 +89,18 @@ Version expandable (avec le + ouvert par défaut)
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
+!!! example
+!!! note
+!!! abstract
+!!! info
+!!! tip
+!!! success
+!!! question
+!!! warning
+!!! failure
+!!! danger
+!!! bug
 
+<br>
 
-!!! warning un warning
-
-!!! info info
+!!! quote
