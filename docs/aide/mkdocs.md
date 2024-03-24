@@ -1,5 +1,6 @@
-# Installation
-## Github
+# MKdocs
+## Installation
+### Github
 Une fois déployé il faut penser à:
 - Aller dans settings
 - Aller sur pages
@@ -24,28 +25,27 @@ nav:
 <br>
 <hr>
 
-# Avancé
-## Alerter (admonition)
+## Avancé
+### Alerter (admonition)
 
 Types:  
-- note
-- abstract
-- info
-- tip
-- success
-- question
-- warning
-- failure
-- danger
-- bug
-- example
-- quote
+- note  
+- abstract  
+- info  
+- tip  
+- success  
+- question  
+- warning  
+- failure  
+- danger  
+- bug  
+- example  
+- quote  
 
-### Une ligne
+#### Une ligne
 !!! warning "Le contenu est obligatoirement entre `""`"
 
-  
-  
+   
 ```
 !!! note "une note"
 ```
@@ -53,7 +53,7 @@ Types:
 
 
 
-### Blocks
+#### Blocks
 ```
 !!! note
 
@@ -92,7 +92,7 @@ Version expandable (avec le + ouvert par défaut)
 
   
   
-### Exemples
+#### Exemples
 !!! example
 !!! note
 !!! abstract
@@ -104,6 +104,6 @@ Version expandable (avec le + ouvert par défaut)
 !!! failure
 !!! danger
 !!! bug
-
+  
   
 !!! quote
