@@ -1,6 +1,9 @@
 ---
 layout: default
-title: Home
+Title: Paramètres
+category: qemu2d
+order: 2
+
 ---
 
 
