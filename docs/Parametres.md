@@ -12,6 +12,10 @@ title: Home
 
 !!! WARNING retest
 
+
+- [ ] ok
+- [x] not ok
+
 # Paramètres
 ## Ordre de boot
 Activer le `menu boot`
