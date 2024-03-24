@@ -34,6 +34,18 @@
 
 
   
+<h3>html_pages</h3>
+<ul>
+    {% for doc in site.html_pages %}
+      {% if doc.category == "qemu2d" %}
+
+        <li>{{ doc.title }} - {{ doc  }}</li>
+        {% endif %}
+    {% endfor %}
+</ul>
+
+
+  
   <h3>racine</h3>
 <ul>
     {% for doc in site %}
@@ -68,15 +80,6 @@
 
 
 
-
-<h3>html_pages</h3>
-<ul>
-    {% for doc in site.html_pages %}
-
-        <li>{{ doc.title }} - {{ doc  }}</li>
-
-    {% endfor %}
-</ul>
 
 documents est vide
 </div>
