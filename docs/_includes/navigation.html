@@ -31,39 +31,56 @@
   <a href="#">Link 3</a>
   <a href="#">Link 4</a>
   <hr>
+
   <h3>Getting Started</h3>
 <ul>
-    {% for doc in site.aide.qemu %}
-      {% if doc.category == "qemu2d" %}
+    {% for doc in aide.qemu %}
+
         <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-      {% endif %}
+
     {% endfor %}
 </ul>
 
-<h3>Getting Started</h3>
+
+
+  <h3>Getting Started</h3>
 <ul>
-    {% for doc in aide.qemu %}
-      {% if doc.category == "qemu2d" %}
+    {% for doc in site.aide.qemu %}
+
         <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-      {% endif %}
+
     {% endfor %}
 </ul>
+
+
 
 <h3>Getting Started</h3>
 <ul>
     {% for doc in _site.aide.qemu %}
-      {% if doc.category == "qemu2d" %}
+
         <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-      {% endif %}
+
     {% endfor %}
 </ul>
+
+
 <h3>Getting Started</h3>
 <ul>
     {% for doc in site.docs.aide.qemu %}
-      {% if doc.category == "qemu2d" %}
+
         <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-      {% endif %}
+
     {% endfor %}
 </ul>
 </div>
+
+
+<h3>Getting Started</h3>
+<ul>
+    {% for doc in _site.docs.aide.qemu %}
+
+        <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
+
+    {% endfor %}
+</ul>
 
