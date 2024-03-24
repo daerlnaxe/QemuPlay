@@ -47,19 +47,19 @@ $admonitions:
 @each $name, $icon, $icon-color, $title-color in $admonitions {
     @if $icon-color {
         .admonition.#{$name} {
-            border-left-color: #{$icon-color};
+            border-left-color: yellow;
         }
     }
     @if $title-color {
         .admonition.#{$name} .admonition-title {
-            background-color: #{$title-color};
+            background-color: blue;
         }
     }
     .admonition.#{$name} .admonition-title::before {
-        -webkit-mask: url("./assets/images/icons/#{$icon}") no-repeat 50% 50%;
-        mask: url("./assets/images/icons/#{$icon}") no-repeat 50% 50%;
+        -webkit-mask: url("./assets/images/icons/bolt-solid.svg") no-repeat 50% 50%;
+        mask: url("./assets/images/icons/bolt-solid.svg") no-repeat 50% 50%;
         @if $icon-color {
-            background-color: #{$icon-color};
+            background-color: red;
         }
     }
 }
