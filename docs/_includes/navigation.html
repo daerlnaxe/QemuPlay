@@ -46,37 +46,36 @@
 
   {% endfor %}
 </ul-->
-posts
+include
 <ul>
-  {% for doc in site.posts %}
+  {% for doc in site.include %}
 
       <li> {{ doc  }}</li>
 
   {% endfor %}
 </ul>
 <hr>
-source
+exclude
 <ul>
-  {% for doc in site.source %}
+  {% for doc in site.exclude %}
 
       <li> {{ doc  }}</li>
 
   {% endfor %}
 </ul>
 <hr>
-destination
+keep_files
 <ul>
-  {% for doc in site.destination %}
+  {% for doc in site.keep_files %}
 
       <li> {{ doc  }}</li>
 
   {% endfor %}
 </ul>
 <hr>
-<hr>
-static_files
+limit_posts
 <ul>
-  {% for doc in site. %}
+  {% for doc in site.limit_posts %}
 
       <li> {{ doc  }}</li>
 
@@ -92,9 +91,36 @@ pages
   {% endfor %}
 </ul>
 <hr>
-safe
+strict_front_matter
 <ul>
-  {% for doc in site.safe %}
+  {% for doc in site.strict_front_matter %}
+
+      <li> {{ doc  }}</li>
+
+  {% endfor %}
+</ul>
+<hr>
+show_drafts
+<ul>
+  {% for doc in site.show_drafts %}
+
+      <li> {{ doc  }}</li>
+
+  {% endfor %}
+</ul>
+<hr>
+github
+<ul>
+  {% for doc in site.github %}
+
+      <li> {{ doc  }}</li>
+
+  {% endfor %}
+</ul>
+<hr>
+url
+<ul>
+  {% for doc in site.url %}
 
       <li> {{ doc  }}</li>
 
@@ -105,13 +131,6 @@ safe
 
 
 
-
-include
-exclude
-keep_files
-strict_front_matter
-show_drafts
-limit_posts
 future
 highlighter
 lsi
@@ -127,17 +146,25 @@ defaults
 liquid
 title
 description
-url
-github
+
+
 
 
 </div>
+
+source: la source paramétrées
+destination: la destination paramétrée
+
+
 
 rien pour le moment: 
 - related_posts
 - collection_dir
 - categories
 - collections
+- posts
+- safe
+
 
 static_files:
 Jekyll::Drops::StaticFileDrop
