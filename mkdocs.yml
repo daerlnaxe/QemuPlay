@@ -26,7 +26,9 @@ nav:
   - Qemu2DFX : qemu3dfx/index.md
   - ArchW98 : archw98/index.md
   - Aide :
-      - MkDocs : /aide/mkdocs.md
+      - 'MkDocs' : /aide/mkdocs.md
+      - Qemu :
+        - 'Paramètres': /aide/parametres.md
   # Référencer les autres pages ci-dessus...
 
 # Configuration du thème https://squidfunk.github.io/mkdocs-material/creating-your-site/#configuration
