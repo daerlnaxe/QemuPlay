@@ -1,6 +1,15 @@
 allez !
 
+Nécessite markdown_extensions:   - admonition
+
+
 !!! un test
+
+!!! info une info
+
+!!! warning un warning
+
+<hr>
 
 du code
 
