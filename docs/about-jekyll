@@ -1,0 +1,19 @@
+Après avoir bien galéré
+
+Pour ajouter un thème:
+- Faire un fichier _config.yml à la racine de docs
+- theme: jekyll-theme-<choix>
+
+Pour ajouter les admonitions (peut servir pour propre css)
+- Faire un fichier scss dans _sass
+- Mettre le code liquid dans _includes au format html
+- Dans /assets/css/style.css
+```
+---
+# Commentaire Front matter pour être sûr que Jekyll lise le fichier
+---
+// Concene le thème du site
+@import "{{ site.theme }}";
+// Conserne le scss dans lequel on a mis le code
+@import "admonition";
+```
