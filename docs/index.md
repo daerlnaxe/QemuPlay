@@ -7,3 +7,6 @@ rah
   <p>Hello this is just a test.</p>
   <p>This is an another line.</p>
 </div>
+
+
+{% include admonition.html type="info" title="Info" body="This is information intended to draw attention." %}
