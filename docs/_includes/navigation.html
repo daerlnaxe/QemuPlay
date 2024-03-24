@@ -38,11 +38,20 @@
 <ul>
     {% for doc in site.html_pages %}
       {% if doc.category == "qemu2d" %}
-        <li><a href="QemuPlay/{{ doc.url }}">{{ doc.title }}</a></li>
+        <li><a href=".{{ doc.url }}">{{ doc.title }}</a></li>
       {% endif %}
     {% endfor %}
 </ul>
 
+  
+<h3>html_pages</h3>
+<ul>
+    {% for doc in site.html_pages %}
+      {% if doc.category == "qemu2d" %}
+        <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+</ul>
 
   
   <h3>racine</h3>
