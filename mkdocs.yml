@@ -21,8 +21,8 @@ site_author: "Alexandre CODOUL"
 docs_dir: docs
 # Structure du menu principal de navigation, chemins relatifs au dossier docs_dir
 nav: 
-  - La page d'accueil : index.md
-  - Une page de ressources : ressources.md
+  - Home : index.md
+  - Aide : /aide/index.md
   # Référencer les autres pages ci-dessus...
 
 # Configuration du thème https://squidfunk.github.io/mkdocs-material/creating-your-site/#configuration
