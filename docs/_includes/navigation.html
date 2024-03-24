@@ -34,8 +34,9 @@
 
 
   
-<h3>html_pages</h3>
+<h3>Aide</h3>
 <ul>
+    <li>Q</li>
     {% for doc in site.html_pages %}
       {% if doc.category == "qemu2d" %}
         <li><a href=".{{ doc.url }}">{{ doc.title }}</a></li>
@@ -44,52 +45,6 @@
 </ul>
 
   
-<h3>html_pages</h3>
-<ul>
-    {% for doc in site.html_pages %}
-      {% if doc.category == "qemu2d" %}
-        <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-      {% endif %}
-    {% endfor %}
-</ul>
-
-  
-  <h3>racine</h3>
-<ul>
-    {% for doc in site %}
-
-        <li> {{ doc  }}</li>
-
-    {% endfor %}
-</ul>
-
-  <h3>markdown</h3>
-<ul>
-    {% for doc in site.markdown %}
-
-        <li>{{ doc.title }} - {{ doc  }}</li>
-
-    {% endfor %}
-</ul>
-
-
-
-<h3>github</h3>
-<ul>
-    {% for doc in site.github %}
-
-        <li>{{ doc.title }} - {{ doc  }}</li>
-
-    {% endfor %}
-</ul>
-
-
-
-
-
-
-
-documents est vide
 </div>
 
 

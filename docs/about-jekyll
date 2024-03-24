@@ -28,3 +28,16 @@ Voir le contenu du dossier racine:
     {% endfor %}
 </ul>
 ```
+
+
+Pour la barre de navigation, rien à voir avec l'aide de Jekyll, le contenu est dans `site.html_pages`:
+```
+<h3>Categorie</h3>
+<ul>
+    {% for doc in site.html_pages %}
+      {% if doc.category == "<ta categorie>" %}
+        <li><a href=".{{ doc.url }}">{{ doc.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+</ul>
+```
