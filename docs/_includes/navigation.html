@@ -36,12 +36,14 @@
   
 <h3>Aide</h3>
 <ul>
-    <li>Q</li>
-    {% for doc in site.html_pages %}
+    <li>Qemu</li>
+    <ul>
+      {% for doc in site.html_pages %}
       {% if doc.category == "qemu2d" %}
         <li><a href=".{{ doc.url }}">{{ doc.title }}</a></li>
       {% endif %}
     {% endfor %}
+     </ul>
 </ul>
 
   
