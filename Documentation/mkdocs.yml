@@ -1,0 +1,141 @@
+# Fichier de configuration du site à personnaliser
+### Configuration minimale
+site_name: QemuPlay # Nom du site <70 caractères, apparait dans l'onglet du navigateur 
+#site_url: https://ericecmorlaix.github.io/base_mkdocs_material/ # Adresse web principale de publication du site, à modifier au format https://votrePseudoGitHub.github.io/votreDepot/
+
+### Configuration du dépôt
+# Ajoute en haut à droite de chaque page du site, icône, nom et lien vers le dépot GitHub du projet.
+#repo_url: https://github.com/ericECmorlaix/base_mkdocs_material
+#repo_name: 'base_mkdocs_material' # Personnalise le nom générique "GitHub" donné par défaut au lien vers le dépot GitHub du projet.
+#edit_uri: edit/main/docs/ # Complément au chemin pour aller depuis `repo_url:` jusqu'au répertoire `docs` ;
+# Ce qui permet avec MkDocs-Material d'ajouter un bouton (crayon) d'édition du code source.md d'une page du site depuis le navigateur
+# (edit => édition avec connexion | blob, tree => lecture anonyme)
+
+### Configuration de métadonnées
+# Métadonnées de description <300 caratères, et d'auteur pour toutes les pages du site 
+site_description: Documentation de QemuPlay
+site_author: "Alexandre CODOUL"
+
+### Configuration de la stucture de navigation
+# Dossier source, chemin relatif au fichier mkdocs.yml
+docs_dir: Documentation/docs
+# Structure du menu principal de navigation, chemins relatifs au dossier docs_dir
+nav: 
+  - La page d'accueil : index.md
+  - Une page de ressources : ressources.md
+  # Référencer les autres pages ci-dessus...
+
+# Configuration du thème https://squidfunk.github.io/mkdocs-material/creating-your-site/#configuration
+theme:
+    name: material # autres thèmes : https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes
+    # custom_dir: overrides #  
+    font: false  # RGPD ; pas de fonte Google
+    language: fr # français
+    icon:
+      logo: fontawesome/solid/code # image qui apparait dans l'en tête à gauche du titre de la page
+      # et qui est support du lien qui renvoie à la racine du site depuis toutes les pages
+      repo: fontawesome/brands/github-alt # modifie l'icône du lien vers le dépot du projet de l'en tête
+      edit: material/pencil 
+      view: material/eye
+    
+    # Palettes de couleurs jour/nuit, cf : https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
+    palette: 
+      - scheme: default # nom du thème clair
+        primary: lime # couleur primaire des titres, des liens, ..., à prendre dans la liste
+        accent: amber # couleur d'accentuation au survol des boutons, desliens, ..., à prendre dans la liste
+        toggle: # définition du bouton pour switcher de palette
+          icon: material/weather-sunny # apparence
+          name: Basculer en mode sombre # message
+      - scheme: slate # nom du thème sombre
+        primary: amber
+        accent: lime
+        toggle:
+          icon: material/weather-night
+          name: Basculer en mode clair
+    # Configuration du comportement de la navigation, cf : https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/
+    features:
+        #- content.action.edit # pour éditer le code de la page en cliquant sur le crayon
+        - content.action.view # pour voir le code de la page en cliquant sur l'oeil
+        - navigation.instant # active XHR https://fr.wikipedia.org/wiki/XMLHttpRequest
+        - navigation.tabs # Menu de navigation horizontal sous l'en-tête sauf sur appareil mobile
+        - navigation.expand
+        # - navigation.tabs.sticky # Menu de navigation horizontal collant
+        - navigation.top # bouton pour remonter tout en haut de la page
+        - toc.integrate # Table Of Content, table des matières intégrée dans la barre verticale de navigation
+        - header.autohide # masquage automatique de l'en tête du site lorsque l'on descend dans la page
+
+
+### Configuration des extensions MarkDown :        
+markdown_extensions: # https://squidfunk.github.io/mkdocs-material/reference/abbreviations/
+    # extensions de la bibliothèque markdown standard
+    - abbr                          # Infobulles sur abbréviations 
+    - meta                          # Métadonnées
+    - def_list                      # Listes de définition.
+    - attr_list                     # Sélecteurs CSS et attributs HTML personnalisés
+    - md_in_html                    # Pour écrire en MarkDown dans des balises HTML https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/#markdown-in-html
+    - footnotes                     # Notes[^1] de bas de page.  [^1]: ma note.
+    - admonition                    # Boite d'avertissements  !!! info "ma remarque"
+    - toc:                          # Configuration de la table des matières générée automatiquement à partir des titres du niveau 2
+        permalink: "&num;"          # Ajoute un symbole lien hypertexte vers l'ancre du titre #le-titre 
+        toc_depth: 4                # Limite de la profondeur d'inclusion des titres dans la table des matières
+    # extensions de python-markdown https://facelessuser.github.io/pymdown-extensions/
+    - pymdownx.details              # plier/déplier les avertissements.
+    - pymdownx.caret                # texte ^^souligné^^ ou en ^exposant^.
+    - pymdownx.mark                 # texte ==surligné==.
+    - pymdownx.tilde                # texte ~~barré~~ ou en ~indice~.
+    - pymdownx.critic               # Pour du marquage et commentaires de révision de texte
+    - pymdownx.highlight            # Coloration syntaxique du code
+    - pymdownx.inlinehilite         # pour  `#!python  <python en ligne>`
+    - pymdownx.snippets             # Inclusion de fichiers externe.
+    - pymdownx.tasklist:            # Cases à cocher  - [ ]  et - [x]
+        custom_checkbox:    false    #   avec cases d'origine
+        clickable_checkbox: true    #   et cliquables.
+    - pymdownx.tabbed:              # Onglets coulissants.  === "Onglet"
+        alternate_style: true       # Ajout depuis la version 8
+    - pymdownx.superfences          # Imbrication de blocs.
+    - pymdownx.keys:                # Touches du clavier.  ++ctrl+d++
+        separator: "\uff0b"
+    - pymdownx.emoji:               # Émojis  :boom:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+    - pymdownx.arithmatex:          # Formules en LaTeX 
+        generic: true
+        smart_dollar: false
+
+plugins:
+  - search # Inclure une barre de recherche
+  # - mkdocs-jupyter: # Convertir les fichiers .ipynb et .py en pages du site https://github.com/danielfrg/mkdocs-jupyter
+  #     kernel_name: python3
+  #     execute: False
+  #     include_source: True
+
+### Configuration d'une licence
+# Information de droit d'auteur qui s'affiche dans le pied de page pour toutes les pages du site
+#copyright: >
+#    Document partagé par <a href="https://github.com/ericECmorlaix" target="_blank">Eric MADEC</a>
+#    &copy; 2023 sous licence <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr" target="_blank">CC BY-NC-SA 4.0</a>
+#    <br> Illustrations par <a href="https://undraw.co/" target="_blank">UnDraw</a>
+
+
+### Configuration de liens sociaux https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links 
+#extra:
+#  social: # A personaliser...
+#    - icon: fontawesome/solid/paper-plane
+#      link: mailto:eric.madec@ecmorlaix.fr
+#      name: Pour toute question, suggestion ou commentaire, écrire à l'auteur
+#    - icon: fontawesome/brands/github
+#      link: https://github.com/ericECmorlaix/base_mkdocs_material
+#      name: dépôt github
+#    - icon: fontawesome/solid/school
+#      link: https://www.ecmorlaix.fr/nos-etablissements/lycee-notre-dame-du-mur/
+#      name: Lycée Notre Dame du Mur
+
+# Configuration de javascripts complémentaires
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# Configuration de css complémentaires
+extra_css:
+  - stylesheets/extra.css
