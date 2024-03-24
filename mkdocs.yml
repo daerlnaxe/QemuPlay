@@ -28,7 +28,7 @@ nav:
 # Configuration du thème https://squidfunk.github.io/mkdocs-material/creating-your-site/#configuration
 theme:
     name: material # autres thèmes : https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes
-    # custom_dir: overrides #  
+    custom_dir: overrides #  
     font: false  # RGPD ; pas de fonte Google
     language: fr # français
     icon:
