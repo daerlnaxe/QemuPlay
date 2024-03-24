@@ -56,3 +56,102 @@ Pour la barre de navigation, rien à voir avec l'aide de Jekyll, le contenu est 
 
 <br>
 <hr>
+
+Contenu d'un objet page:
+- Balises customs
+- title ? en plus du custom
+- content
+- dir :
+  -  / pour la racine
+  - /dir1/dir2/ pour une arbo
+- name: nom du fichier
+- path : chemin vers le fichier
+  - fichier.ext pour la racine
+  - dir1/dir/fichier.ext pour une arbo
+- url : url vers le fichier
+  - fichier.html pour la racine
+  - dir1/dir2/fichier.html pour une arbo
+
+
+
+<br>
+<hr>
+variables :
+
+source: la source paramétrées
+destination: la destination paramétrée
+url: url de base
+highlighter: l'highlighter utilisé
+title: titre du site
+description: description du site
+
+
+planqué
+
+<!--
+rien pour le moment: 
+- related_posts
+- collection_dir
+- categories
+- collections
+- posts
+- safe
+- limit_posts
+- strict_front_matter
+- show_drafts
+- Future 
+- lsi
+
+
+
+static_files:
+Jekyll::Drops::StaticFileDrop
+
+pas intéressant pour le moment:
+- include
+- exclude
+- keep_files
+
+
+github:
+api_url
+archived
+baseurl
+build_revision
+clone_url
+contributors
+disabled
+environment
+help_url
+hostname
+is_project_page
+is_user_page
+issues_url
+language
+latest_release
+license
+organization_members
+owner
+owner_display_name
+owner_gravatar_url
+owner_name
+owner_url
+pages_env
+pages_hostname
+private
+project_tagline
+project_title
+public_repositories
+releases
+releases_url
+repository_name
+repository_nwo
+repository_url
+show_downloads
+source
+tar_url
+url
+versions
+wiki_url
+zip_url
+-->
