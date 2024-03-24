@@ -10,4 +10,13 @@
       {% endif %}
     {% endfor %}
 </ul>
+
+<h3>Qemu2D2</h3>
+<ul>
+    {% for doc in site %}
+      {% if doc.category == "qemu2d" %}
+        <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+</ul>
   </div>
