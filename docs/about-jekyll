@@ -4,6 +4,9 @@ Pour ajouter un thème:
 - Faire un fichier _config.yml à la racine de docs
 - theme: jekyll-theme-<choix>
 
+<br>
+<hr>
+
 Pour ajouter les admonitions (peut servir pour propre css)
 - Faire un fichier scss dans _sass
 - Mettre le code liquid dans _includes au format html
@@ -17,6 +20,14 @@ Pour ajouter les admonitions (peut servir pour propre css)
 // Conserne le scss dans lequel on a mis le code
 @import "admonition";
 ```
+
+Ensuite dans la page
+```
+{% include admonition.html type="abstract" title="Abstract" body="This is information intended to draw attention." %}
+```
+
+<br>
+<hr>
 
 Voir le contenu du dossier racine:
 ```
@@ -41,3 +52,7 @@ Pour la barre de navigation, rien à voir avec l'aide de Jekyll, le contenu est 
     {% endfor %}
 </ul>
 ```
+
+
+<br>
+<hr>
