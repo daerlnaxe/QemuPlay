@@ -18,7 +18,7 @@ site_author: "Alexandre CODOUL"
 
 ### Configuration de la stucture de navigation
 # Dossier source, chemin relatif au fichier mkdocs.yml
-docs_dir: documentation/docs
+docs_dir: docs
 # Structure du menu principal de navigation, chemins relatifs au dossier docs_dir
 nav: 
   - La page d'accueil : index.md
