@@ -36,4 +36,5 @@ jobs:
       # les instructions pour installer avec pip
       # les autres plugins MkDocs ou extensions MarkDown
       # souhaités pour le déploiement du site...
-      - run: mkdocs gh-deploy --force --config-file Documentation/mkdocs.yml
+      - run: mkdocs gh-deploy --force
+      # --config-file Documentation/mkdocs.yml
