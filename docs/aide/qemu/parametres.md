@@ -1,5 +1,5 @@
 ---
-Title: Parametres
+title: Parametres
 category: qemu2d
 order: 2
 ---
