@@ -27,7 +27,7 @@ nav:
 # Avancé
 ## Alerter (admonition)
 
-Types:
+Types:  
 - note
 - abstract
 - info

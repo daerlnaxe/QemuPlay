@@ -39,8 +39,7 @@ Utiliser l'option ci-dessous qui est totalement compatible windows98
 
 <br>
 
-Clients:
-
+Clients:  
 - Real VNC Viewer
 
 
@@ -59,7 +58,7 @@ Syntaxe:
 
 <br>
 
-Options:
+Options:  
 - Pas de password: disable-ticketing=on
 
 <br>
