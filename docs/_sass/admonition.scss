@@ -47,13 +47,19 @@ $admonitions:
 @each $name, $icon, $icon-color, $title-color in $admonitions {
     @if $icon-color {
         .admonition.#{$name} {
-            border-left-color: blue;
+            border-left-color: #{$icon-color};
         }
     }
     @if $title-color {
         .admonition.#{$name} .admonition-title {
-            background-color: red;
+            background-color: #{$title-color};
         }
     }
-
+    .admonition.#{$name} .admonition-title::before {
+        -webkit-mask: url("/assets/img/icons/#{$icon}") no-repeat 50% 50%;
+        mask: url("/assets/img/icons/#{$icon}") no-repeat 50% 50%;
+        @if $icon-color {
+            background-color: #{$icon-color};
+        }
+    }
 }
