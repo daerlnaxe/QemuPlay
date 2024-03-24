@@ -38,49 +38,7 @@
     {% endfor %}
      </ul>
 </ul>
-<!--hr>
-<ul>
-  {% for doc in site %}
 
-      <li> {{ doc  }}</li>
-
-  {% endfor %}
-</ul-->
-include
-<ul>
-  {% for doc in site.include %}
-
-      <li> {{ doc  }}</li>
-
-  {% endfor %}
-</ul>
-<hr>
-exclude
-<ul>
-  {% for doc in site.exclude %}
-
-      <li> {{ doc  }}</li>
-
-  {% endfor %}
-</ul>
-<hr>
-keep_files
-<ul>
-  {% for doc in site.keep_files %}
-
-      <li> {{ doc  }}</li>
-
-  {% endfor %}
-</ul>
-<hr>
-limit_posts
-<ul>
-  {% for doc in site.limit_posts %}
-
-      <li> {{ doc  }}</li>
-
-  {% endfor %}
-</ul>
 <hr>
 pages
 <ul>
@@ -91,18 +49,62 @@ pages
   {% endfor %}
 </ul>
 <hr>
-strict_front_matter
+<!--hr>
 <ul>
-  {% for doc in site.strict_front_matter %}
+  {% for doc in site %}
+
+      <li> {{ doc  }}</li>
+
+  {% endfor %}
+</ul-->
+github.source
+<ul>
+  {% for doc in site.github.source %}
 
       <li> {{ doc  }}</li>
 
   {% endfor %}
 </ul>
 <hr>
-show_drafts
+future
 <ul>
-  {% for doc in site.show_drafts %}
+  {% for doc in site.future %}
+
+      <li> {{ doc  }}</li>
+
+  {% endfor %}
+</ul>
+<hr>
+highlighter
+<ul>
+  {% for doc in site.highlighter %}
+
+      <li> {{ doc  }}</li>
+
+  {% endfor %}
+</ul>
+<hr>
+lsi
+<ul>
+  {% for doc in site.lsi %}
+
+      <li> {{ doc  }}</li>
+
+  {% endfor %}
+</ul>
+<hr>
+description
+<ul>
+  {% for doc in site.description %}
+
+      <li> {{ doc  }}</li>
+
+  {% endfor %}
+</ul>
+<hr>
+title
+<ul>
+  {% for doc in site.title %}
 
       <li> {{ doc  }}</li>
 
@@ -118,9 +120,9 @@ github
   {% endfor %}
 </ul>
 <hr>
-url
+
 <ul>
-  {% for doc in site.url %}
+  {% for doc in site. %}
 
       <li> {{ doc  }}</li>
 
@@ -128,24 +130,15 @@ url
 </ul>
 <hr>
 
+site.baseurl
 
 
-
-future
-highlighter
-lsi
-excerpt_separator
-incremental
-detach
-port
-host
-baseurl
 permalink
 paginate_path
 defaults
-liquid
-title
-description
+
+
+
 
 
 
@@ -154,7 +147,7 @@ description
 
 source: la source paramétrées
 destination: la destination paramétrée
-
+url: url de base
 
 
 rien pour le moment: 
@@ -164,7 +157,59 @@ rien pour le moment:
 - collections
 - posts
 - safe
+- limit_posts
+- strict_front_matter
+- show_drafts
+
 
 
 static_files:
 Jekyll::Drops::StaticFileDrop
+
+pas intéressant pour le moment:
+- include
+- exclude
+- keep_files
+
+
+github:
+api_url
+archived
+baseurl
+build_revision
+clone_url
+contributors
+disabled
+environment
+help_url
+hostname
+is_project_page
+is_user_page
+issues_url
+language
+latest_release
+license
+organization_members
+owner
+owner_display_name
+owner_gravatar_url
+owner_name
+owner_url
+pages_env
+pages_hostname
+private
+project_tagline
+project_title
+public_repositories
+releases
+releases_url
+repository_name
+repository_nwo
+repository_url
+show_downloads
+source
+tar_url
+url
+versions
+wiki_url
+zip_url
