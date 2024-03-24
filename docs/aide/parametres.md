@@ -41,6 +41,7 @@ Utiliser l'option ci-dessous qui est totalement compatible windows98
 
 Clients:  
 - Real VNC Viewer
+- ...
 
 
 <br>
