@@ -66,50 +66,7 @@ github.source
   {% endfor %}
 </ul>
 <hr>
-future
-<ul>
-  {% for doc in site.future %}
 
-      <li> {{ doc  }}</li>
-
-  {% endfor %}
-</ul>
-<hr>
-highlighter
-<ul>
-  {% for doc in site.highlighter %}
-
-      <li> {{ doc  }}</li>
-
-  {% endfor %}
-</ul>
-<hr>
-lsi
-<ul>
-  {% for doc in site.lsi %}
-
-      <li> {{ doc  }}</li>
-
-  {% endfor %}
-</ul>
-<hr>
-description
-<ul>
-  {% for doc in site.description %}
-
-      <li> {{ doc  }}</li>
-
-  {% endfor %}
-</ul>
-<hr>
-title
-<ul>
-  {% for doc in site.title %}
-
-      <li> {{ doc  }}</li>
-
-  {% endfor %}
-</ul>
 <hr>
 github
 <ul>
@@ -120,27 +77,36 @@ github
   {% endfor %}
 </ul>
 <hr>
-
+permalink
 <ul>
-  {% for doc in site. %}
+  {% for doc in site.permalink %}
 
       <li> {{ doc  }}</li>
 
   {% endfor %}
 </ul>
 <hr>
-
-site.baseurl
-
-
-permalink
-paginate_path
 defaults
+<ul>
+  {% for doc in site.defaults %}
 
+      <li> {{ doc  }}</li>
 
+  {% endfor %}
+</ul>
+<hr>
+paginate_path
 
+<ul>
+  {% for doc in site.paginate_path
+    %}
 
+      <li> {{ doc  }}</li>
 
+  {% endfor %}
+</ul>
+<hr>
+site.baseurl
 
 
 </div>
@@ -148,6 +114,9 @@ defaults
 source: la source paramétrées
 destination: la destination paramétrée
 url: url de base
+highlighter: l'highlighter utilisé
+title: titre du site
+description: description du site
 
 
 rien pour le moment: 
@@ -160,6 +129,8 @@ rien pour le moment:
 - limit_posts
 - strict_front_matter
 - show_drafts
+- Future 
+- lsi
 
 
 
