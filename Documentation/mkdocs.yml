@@ -1,7 +1,7 @@
 # Fichier de configuration du site à personnaliser
 ### Configuration minimale
 site_name: QemuPlay # Nom du site <70 caractères, apparait dans l'onglet du navigateur 
-#site_url: https://ericecmorlaix.github.io/base_mkdocs_material/ # Adresse web principale de publication du site, à modifier au format https://votrePseudoGitHub.github.io/votreDepot/
+site_url: https://daerlnaxe.github.io/QemuPlay/ # Adresse web principale de publication du site, à modifier au format https://votrePseudoGitHub.github.io/votreDepot/
 
 ### Configuration du dépôt
 # Ajoute en haut à droite de chaque page du site, icône, nom et lien vers le dépot GitHub du projet.
