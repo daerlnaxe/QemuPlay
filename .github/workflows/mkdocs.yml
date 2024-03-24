@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install mkdocs
-      - run: mkdocs gh-deploy --force --clean --verbose --config-file ./mkdocks.yml
+      - run: mkdocs gh-deploy --force --clean --verbose --config-file ./.github/workflows/mkdocks.yml
       - name: Build and deploy to GitHub Pages 🏗️ 🚀
         working-directory: docs
         run: make deploy
