@@ -38,9 +38,8 @@
 <ul>
     {% for doc in site.html_pages %}
       {% if doc.category == "qemu2d" %}
-
-        <li>{{ doc.title }} - {{ doc  }}</li>
-        {% endif %}
+        <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
+      {% endif %}
     {% endfor %}
 </ul>
 
