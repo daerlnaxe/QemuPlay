@@ -9,13 +9,15 @@ Une fois déployé il faut penser à:
 
 ## Configuration
 ### Navigation
-!!! warning "Les rubriques sont entre simple quote"
+!!! warning "Les rubriques sont entre simple quote et les liens relatifs"
 
 ```yaml
 nav:
-  - home: index.md
-  - aide:
-    - qemu : 
+  - Home: index.md
+  - Aide :
+      - 'MkDocs' : aide/mkdocs.md
+      - 'Qemu' :
+        - 'Paramètres': ./aide/parametres.md
 ```
 
 
