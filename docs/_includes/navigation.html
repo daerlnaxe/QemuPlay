@@ -25,7 +25,7 @@
 </style>
 
 <div class="vertical-menu">
-<h2><a href="./index.html" class="active">Home</a></h2
+<h2><a href="./index.html" class="active">Home</a></h2>
 
 <h3>Aide</h3>
 <ul>
@@ -46,27 +46,27 @@
 
   {% endfor %}
 </ul-->
-related_posts
+posts
 <ul>
-  {% for doc in site.related_posts %}
+  {% for doc in site.posts %}
 
       <li> {{ doc  }}</li>
 
   {% endfor %}
 </ul>
 <hr>
-categories
+source
 <ul>
-  {% for doc in site.categories %}
+  {% for doc in site.source %}
 
       <li> {{ doc  }}</li>
 
   {% endfor %}
 </ul>
 <hr>
-collections
+destination
 <ul>
-  {% for doc in site.collections %}
+  {% for doc in site.destination %}
 
       <li> {{ doc  }}</li>
 
@@ -76,7 +76,7 @@ collections
 <hr>
 static_files
 <ul>
-  {% for doc in site.static_files %}
+  {% for doc in site. %}
 
       <li> {{ doc  }}</li>
 
@@ -92,9 +92,9 @@ pages
   {% endfor %}
 </ul>
 <hr>
-collections_dir
+safe
 <ul>
-  {% for doc in site.collections_dir %}
+  {% for doc in site.safe %}
 
       <li> {{ doc  }}</li>
 
@@ -103,11 +103,9 @@ collections_dir
 <hr>
 
 
-posts
-source
-destination
 
-safe
+
+
 include
 exclude
 keep_files
@@ -135,5 +133,11 @@ github
 
 </div>
 
+rien pour le moment: 
+- related_posts
+- collection_dir
+- categories
+- collections
 
-
+static_files:
+Jekyll::Drops::StaticFileDrop
