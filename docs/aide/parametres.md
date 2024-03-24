@@ -18,17 +18,11 @@ Activer le `menu boot`
 ## Affichage déporté
 ### VNC
 
-> [!WARNING]
-> Pour le moment je n'ai pas réussi sous windows host à faire transiter le son entre deux PC. Sous linux il est probable qu'il faille utiliser pulseaudio.
+!!! WARNING 
+    Pour le moment je n'ai pas réussi sous windows host à faire transiter le son entre deux PC. Sous linux il 
+    est probable qu'il faille utiliser pulseaudio.
 
 
-> [!NOTE]
-> Information the user should notice even if skimming.
-
-! This is an info message.
-
-
-<br>
 
 Syntaxe:
 ```
@@ -53,8 +47,7 @@ Clients:
 
 ### Spice
 
-> [!NOTE]
->Le son transite parfaitement entre deux machines distantes
+!!! succes "Le son transite parfaitement entre deux machines distantes"
 
 <br>
 
