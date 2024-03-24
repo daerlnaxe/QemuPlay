@@ -20,6 +20,8 @@ Nécessite markdown_extensions:   - admonition
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
+> :warning: **Warning:** Do not push the big red button.
+
 
 <hr>
 
