@@ -1,6 +1,8 @@
 name: build
 on:
   push:
+    paths-ignore:
+      - 'old/**'
     branches:
       - main
 jobs:
