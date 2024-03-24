@@ -1,19 +1,12 @@
 ---
 layout: default
-Title: Paramètres
+Title: Parametres
 category: qemu2d
 order: 2
 
 ---
 
 
-<div class="admonition note" style="font-color=red;">
-  <p class="admonition-title">Note</p>
-  <p>Hello this is just a test.</p>
-  <p>This is an another line.</p>
-</div>
-
-!!! WARNING retest
 
 
 - [ ] ok
