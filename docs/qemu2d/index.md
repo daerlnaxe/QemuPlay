@@ -1,19 +1,11 @@
+# Index
 Author: Alexandre CODOUL aka Daerlnaxe
 
-
-**Table Of Content/Sommaire**
-- [Qemu2D](./Qemu2D)
-  - [(EN) Presentation](./Presentation_EN)
-  - [(FR) Présentation](./Presentation_FR)
-- [Changements](#ChangeLog)
-
-<br>
-<br>
-
+[_TOC_]
 
 
 ----
-# Memo
+## Memo
 Never Foget / Ne jamais oublier
 - FullScreen Qemu : [Ctrl]+ [Alt]+ [G]
 - Fullscreen ShaderGlass: [Ctrl]+ [Shift] + [G]
@@ -33,20 +25,20 @@ Login/Passwords:
 <br>
 
 
-# Changelog
-## PowerShell script
+## Changelog
+### PowerShell script
 - v0.3
   - Video card choice added in configuration
   - Code splitted in functions and modifications about the configuration checks
 
-## HDD Image
+### HDD Image
 - v0.31
   - System stabilization: a lot of bugs about drivers, seems ok with cirrus 5446 + e1000 or std with jh robotics 2d drivers
   - FTP serveur modified for a free version: typsoft ftp server ()
  
 <br>
 
-# Changements
+### Old_Changements
 - v0.3.0: 
     - Dissociation paquet/image
     - Paquet d'installation
