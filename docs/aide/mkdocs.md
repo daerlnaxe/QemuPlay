@@ -90,7 +90,8 @@ Version expandable (avec le + ouvert par défaut)
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-  
+<br>
+<br>
   
 #### Exemples
 !!! example
@@ -104,6 +105,7 @@ Version expandable (avec le + ouvert par défaut)
 !!! failure
 !!! danger
 !!! bug
-  
+
+<br>
   
 !!! quote

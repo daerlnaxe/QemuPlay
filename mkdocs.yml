@@ -22,13 +22,16 @@ docs_dir: docs
 # Structure du menu principal de navigation, chemins relatifs au dossier docs_dir
 nav:
   - Home : index.md
-  - Qemu2D : qemu2d/index.md
-  - Qemu2DFX : qemu3dfx/index.md
+  - Qemu2D : 
+    - 'Présentation' : qemu2d/presentation.md
+    - 'Démarrage' : qemu2d/demarrage.md
+    - 'Changelog' :  qemu2d/changelog.md
+  - Qemu3DFX : qemu3dfx/index.md
   - ArchW98 : archw98/index.md
   - Aide :
-      - 'MkDocs' : aide/mkdocs.md
-      - 'Qemu' :
-        - 'Paramètres': ./aide/parametres.md
+    - 'MkDocs' : aide/mkdocs.md
+    - 'Qemu' :
+      - 'Paramètres': ./aide/parametres.md
   # Référencer les autres pages ci-dessus...
 
 # Configuration du thème https://squidfunk.github.io/mkdocs-material/creating-your-site/#configuration

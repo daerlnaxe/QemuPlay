@@ -3,9 +3,9 @@ Welcome to the QemuPlay wiki!
 <br>
 
 Sommaire
-- [Qemu2D](./Qemu2D)
-- [Qemu3DFX](./Qemu3DFX)
-- [ArchW98](./ArchW98)
+- [Qemu2D](./Qemu2D)  
+- [Qemu3DFX](./Qemu3DFX)  
+- [ArchW98](./ArchW98)  
 
 <br>
 
