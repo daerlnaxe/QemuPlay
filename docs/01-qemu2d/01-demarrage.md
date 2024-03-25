@@ -11,14 +11,7 @@ A supprimer
 
 <br>
 
-## Prérequis
-- Windows x64.
-- Une clé d'activation pour windows 98.
-- Machines de test
-    - intel 4770k 16Go ddr3
-    - Laptop I5 2.9Ghz
 
-<br>
 
 ## Références
 - [Téléchargement du package](https://app.mediafire.com/0h1koc37bbeo5)
@@ -42,8 +35,7 @@ Le package contient tout le nécessaire mais vous pouvez aussi télécharger sur
 <br>
 <br>
 
-## Au sujet de l'image HDD windows 98
-Le disque système n'est pas très grand (un peu comme à l'époque) et a été prévu pour accueillir surtout l'OS. Je vous invite à consulter le fichier [Win98 On QEMU.pdf](./Win9x%20On%20QEMU%20v0.2.0.pdf) pour voir comment faire un autre disque et le charger, le plus important est détaillé.
+
 
 
 ~~J'ai ajouté un serveur ftp pour faciliter les transferts, les identifiants sont:~~
@@ -61,7 +53,7 @@ Le mot de passe pour se connecter est "1234", pensez à le changer.
 
 <br>
 
-
+----
 ## Quelques mots...
 Normalement j'ai effacé mes traces ainsi que les anciens jeux, si vous constatez quelque chose merci de me prévenir.
 
