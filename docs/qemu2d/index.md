@@ -1,8 +1,8 @@
 # Index
-Author: Alexandre CODOUL aka Daerlnaxe
-
 [_TOC_]
 
+## A Propos
+Ce package a pour but de permettre de créer une machine virtuelle sous QEMU afin de jouer aux jeux en 2D demandant Windows98 ainsi que d'avoir des shaders au dessus pour améliorer le rendu.
 
 ----
 ## Memo
