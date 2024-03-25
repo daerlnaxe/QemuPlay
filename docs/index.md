@@ -1,41 +1,15 @@
-allez !
+Welcome to the QemuPlay wiki!
 
-Nécessite markdown_extensions:   - admonition
+<br>
 
+Sommaire
+- [Qemu2D](./Qemu2D)
+- [Qemu3DFX](./Qemu3DFX)
+- [ArchW98](./ArchW98)
 
+<br>
 
+Remarque  
+Je précise que je n'encourage aucunement le piratage et surtout ce qu'on appelle le l33ch, mon but est la préservation des jeux... Il est normal de payer, cela finance la créativité des développeurs, ça leur donne plus de moyens, de temps (je ne peux pas vivre de mon activité gratuite que ça soit sur le développement ou autres, donc je ne peux pas y consacrer plus de temps).
 
-
-
-!!! note
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
-
-!!! note
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
-
-> :warning: **Warning:** Do not push the big red button.
-
-
-<hr>
-
-- [ ] test1
-- [x] test2
-
-
-du code
-
-```html
-<h1>test</h1>
-```
-
-**dugras**
-
-## hcapitre
-
-> [!NOTE]
-> au cas où
+ 
