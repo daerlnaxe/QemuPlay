@@ -33,6 +33,8 @@ nav:
     - Qemu :
       - 'Hardware' : ./aide/qemu/hardware.md
       - 'Paramètres': ./aide/qemu/parametres.md
+    - ShaderGlass:
+      - 'Index' : ./aide/shaderglass/index.md
   # Référencer les autres pages ci-dessus...
 
 # Configuration du thème https://squidfunk.github.io/mkdocs-material/creating-your-site/#configuration

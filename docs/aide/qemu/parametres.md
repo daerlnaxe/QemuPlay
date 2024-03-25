@@ -60,9 +60,9 @@ Syntaxe:
 <br>
 
 Options:  
-- Pas de password: disable-ticketing=on
+- Pas de password: `disable-ticketing=on`
 
 <br>
 
-Clients : 
+Clients :  
 - Virt-Viewer (Lancer sous Windows comme Remote Viewer)
