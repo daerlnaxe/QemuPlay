@@ -23,18 +23,18 @@ docs_dir: docs
 nav:
   - Home : index.md
   - Qemu2D : 
-    - 'Présentation' : qemu2d/00-presentation.md
-    - 'Démarrage' : qemu2d/01-demarrage.md
-    - 'Changelog' :  qemu2d/98-changelog.md
-  - Qemu3DFX : qemu3dfx/index.md
-  - ArchW98 : archw98/index.md
+    - 'Présentation' : 01-qemu2d/00-presentation.md
+    - 'Démarrage' : 01-qemu2d/01-demarrage.md
+    - 'Changelog' :  01-qemu2d/98-changelog.md
+  - Qemu3DFX : 02-qemu3dfx/index.md
+  - ArchW98 : 03-archw98/index.md
   - Aide :
-    - 'MkDocs' : aide/mkdocs.md
+    - 'MkDocs' : 80-aide/mkdocs.md
     - Qemu :
-      - 'Hardware' : ./aide/qemu/hardware.md
-      - 'Paramètres': ./aide/qemu/parametres.md
+      - 'Hardware' : ./80-aide/qemu/hardware.md
+      - 'Paramètres': ./80-aide/qemu/parametres.md
     - ShaderGlass:
-      - 'Index' : ./aide/shaderglass/index.md
+      - 'Index' : ./80-aide/shaderglass/index.md
   # Référencer les autres pages ci-dessus...
 
 # Configuration du thème https://squidfunk.github.io/mkdocs-material/creating-your-site/#configuration
