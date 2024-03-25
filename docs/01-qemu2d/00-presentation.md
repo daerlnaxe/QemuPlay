@@ -11,7 +11,7 @@ Ce package a pour but de permettre de créer une machine virtuelle sous QEMU afi
 ----
 ## Memo
 Never Foget / Ne jamais oublier  
-- FullScreen Qemu : ++Ctrl+Alt+G++
+- FullScreen Qemu : ++ctrl+alt+g++  
 - Fullscreen ShaderGlass: [Ctrl]+ [Shift] + [G]  
 - Qemu console : [Ctrl]+[Alt]+[2]  
 
