@@ -27,7 +27,7 @@ nav:
     - 'Démarrage' : 01-qemu2d/01-demarrage.md
     - 'Changelog' :  01-qemu2d/98-changelog.md
   - Qemu3DFX : 02-qemu3dfx/index.md
-  - ArchW98 : 03-archw98/index.md
+  - ArchW98 : 03-archw98/01-presentation.md
   - Aide :
     - 'MkDocs' : 80-aide/mkdocs.md
     - Qemu :
