@@ -9,9 +9,11 @@ table {
 
 Welcome to the QemuPlay wiki!
 
-| | |
-|-|-|
-|Bienvenue sur QemuPlay, l'objet est d'aider à utiliser Qemu pour lancer de vieux OS. Actuellement le projet est centré sur Windows 98 qui est le plus problématique de mon point de vue. La partie 2D est pleinement fonctionnelle, la partie 3D bien moins| Welcome to QemuPlay, the aim is to help you use Qemu to run older OSes. Currently the project is focused on Windows 98 which is the most problematic from my point of view. The 2D part is fully functional, the 3D part less so.|
+!!! info inline
+    Bienvenue sur QemuPlay, l'objet est d'aider à utiliser Qemu pour lancer de vieux OS. Actuellement le projet est centré sur Windows 98 qui est le plus problématique de mon point de vue. La partie 2D est pleinement fonctionnelle, la partie 3D bien moins
+
+!!! info endline
+    Welcome to QemuPlay, the aim is to help you use Qemu to run older OSes. Currently the project is focused on Windows 98 which is the most problematic from my point of view. The 2D part is fully functional, the 3D part less so.|
 
 <br>
 
