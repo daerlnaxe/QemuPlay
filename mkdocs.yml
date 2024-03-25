@@ -30,8 +30,9 @@ nav:
   - ArchW98 : archw98/index.md
   - Aide :
     - 'MkDocs' : aide/mkdocs.md
-    - 'Qemu' :
-      - 'Paramètres': ./aide/parametres.md
+    - Qemu :
+      - 'Hardware' : ./aide/qemu/hardware.md
+      - 'Paramètres': ./aide/qemu/parametres.md
   # Référencer les autres pages ci-dessus...
 
 # Configuration du thème https://squidfunk.github.io/mkdocs-material/creating-your-site/#configuration
