@@ -33,6 +33,7 @@ nav:
     - Qemu :
       - 'Hardware' : ./80-aide/qemu/hardware.md
       - 'Paramètres': ./80-aide/qemu/parametres.md
+      - 'Réseau' : ./80-aide/qemu/network.md
     - ShaderGlass:
       - 'Index' : ./80-aide/shaderglass/index.md
   # Référencer les autres pages ci-dessus...
