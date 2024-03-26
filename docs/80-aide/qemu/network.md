@@ -1,30 +1,30 @@
 Sommaire
-- [Conseils](#Conseils)
-- [Interface TAP OpenVPN](#Interface-Tap-OpenVPN)
-- [Partage de connexion](Partage-de-connexion)
-- [Mode Bridge](#Mode-Bridge)
-- [Debug](#Debug)
-  - [Cas: 'Could not Open...'](#cas-tap-could-not-open-openvpn_tap)
+- [Conseils](#Conseils)  
+- [Interface TAP OpenVPN](#Interface-Tap-OpenVPN)  
+- [Partage de connexion](Partage-de-connexion)  
+- [Mode Bridge](#Mode-Bridge)  
+- [Debug](#Debug)  
+  - [Cas: 'Could not Open...'](#cas-tap-could-not-open-openvpn_tap)  
 
 <br>
 
 ----
 ## Modes Réseaux
 Différents modes:
-- Par défaut : 
-  - Connexion au net possible
-  - Impossible de dialoguer avec l'hôte.
-- [Partage de connexion](Partage-de-connexion):
-  - Connexion au net possible
-  - Création d'un subnet où l'interface TAP est routeur
-    - Dialogue hôte<>guest possible
-    - Dialogue avec les machines du réseau impossible
-- [Mode Bridge](#Mode-Bridge)
-  - connexion au net possible
-  - Machine considérée comme appartenant au réseau de l'hôte
-  - Dialogue hôte<>guest possible
-  - Dialogue machines<>guest possible
-  - Dialogue machines<>host possible
+- Par défaut :  
+  - Connexion au net possible  
+  - Impossible de dialoguer avec l'hôte.  
+- [Partage de connexion](Partage-de-connexion):  
+  - Connexion au net possible  
+  - Création d'un subnet où l'interface TAP est routeur  
+    - Dialogue hôte<>guest possible  
+    - Dialogue avec les machines du réseau impossible  
+- [Mode Bridge](#Mode-Bridge)  
+  - connexion au net possible  
+  - Machine considérée comme appartenant au réseau de l'hôte  
+  - Dialogue hôte<>guest possible  
+  - Dialogue machines<>guest possible  
+  - Dialogue machines<>host possible  
 
 <br>
 
@@ -37,18 +37,18 @@ Différents modes:
 ## Interface TAP OpenVPN
 Téléchargez [OpenVPN](https://openvpn.net/community-downloads/)
 
-- Lancez l'installation d'OpenVPN, **mais n'installez que le TAP**.
-![open_vpn](/docs/.assets/images/open_vpn.png)
-- Accéder aux Connexions Réseaux:
-  - Windows 10 :
-    - Pressez les touches [Win]+[R]
-    - Taper 
+- Lancez l'installation d'OpenVPN, **mais n'installez que le TAP**.  
+![open_vpn](../../assets/images/open_vpn.png)  
+- Accéder aux Connexions Réseaux:  
+  - Windows 10 :  
+    - Pressez les touches ++Win+R++  
+    - Taper   
     ```
     ncpa.cpl
     ```
     - Lancer   
-  - Windows 11 : Panneau de configuration → Réseau et Internet → Centre Réseau et partage → Modifier paramètres de la carte
-- Renommez votre connexion (j'ai pris OpenVPN_TAP)
+  - Windows 11 : Panneau de configuration → Réseau et Internet → Centre Réseau et partage → Modifier paramètres de la carte  
+- Renommez votre connexion (j'ai pris OpenVPN_TAP)  
 
 <br>
 
@@ -64,20 +64,20 @@ Nécessite l'installation d'une [interface TAP](#Interface-TAP-OpenVPN)
 <br>
 
 Configuration carte réseau physique Hôte
-- Aller sur la connexion de la carte physique
-- Clic droit &larr; Propriétés
-- Aller sur l'onglet `Partage`
-- Configurer ainsi, en permettant le partage pour la connexion "TAP"
-![shared_conn](/docs/assets/images/shared_conn.png)
+- Aller sur la connexion de la carte physique  
+- Clic droit &larr; Propriétés  
+- Aller sur l'onglet `Partage`  
+- Configurer ainsi, en permettant le partage pour la connexion "TAP"  
+![shared_conn](../../assets/images/shared_conn.png)
 
 <br>
 
 Une fois en place on voit que l'on a deux réseaux différents
 Host  
-![shared_conn2](assets/images/shared_conn2.png)
+![shared_conn2](../../assets/images/shared_conn2.png)
 
 Guest  
-![shared_conn3](./assets/images/shared_conn3.png)
+![shared_conn3](../../assets/images/shared_conn3.png)
 
 <br>
 
@@ -88,18 +88,18 @@ Nécessite l'installation d'une [interface TAP](#Interface-TAP-OpenVPN)
 <br>
 
 Caractéristiques du mode Bridge:
-- Passerelle identique pour tout le monde
-- Serveur DHCP du réseau peuvent définir l'IP
-- L'hôte à une adresse IP
-- La machine guest à sa propre IP
+- Passerelle identique pour tout le monde  
+- Serveur DHCP du réseau peuvent définir l'IP  
+- L'hôte à une adresse IP  
+- La machine guest à sa propre IP  
 
 <br>
 
 Configuration pour le mode Bridge
 
-- Sélectionnez votre carte réseau ainsi que le TAP, faites un clic droit et utilisez "Ajouter un pont"
-![bridge](../../assets/images/bridge.png)
-- Editez les propriétés du pont pour configurer l'IPv4 en Statique (Important)
+- Sélectionnez votre carte réseau ainsi que le TAP, faites un clic droit et utilisez "Ajouter un pont"  
+![bridge](../../assets/images/bridge.png)  
+- Editez les propriétés du pont pour configurer l'IPv4 en Statique (Important)  
 
 <br>
 
