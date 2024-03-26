@@ -74,10 +74,10 @@ Configuration carte réseau physique Hôte
 
 Une fois en place on voit que l'on a deux réseaux différents
 Host  
-![shared_conn2](/docs/assets/images/shared_conn2.png)
+![shared_conn2](assets/images/shared_conn2.png)
 
 Guest  
-![shared_conn3](assets/images/shared_conn3.png)
+![shared_conn3](./assets/images/shared_conn3.png)
 
 <br>
 
