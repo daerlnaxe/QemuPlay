@@ -68,16 +68,16 @@ Configuration carte réseau physique Hôte
 - Clic droit &larr; Propriétés
 - Aller sur l'onglet `Partage`
 - Configurer ainsi, en permettant le partage pour la connexion "TAP"
-![shared_conn](/docs/.assets/images/shared_conn.png)
+![shared_conn](/docs/assets/images/shared_conn.png)
 
 <br>
 
 Une fois en place on voit que l'on a deux réseaux différents
 Host  
-![shared_conn2](/docs/.assets/images/shared_conn2.png)
+![shared_conn2](/docs/assets/images/shared_conn2.png)
 
 Guest  
-![shared_conn3](/docs/.assets/images/shared_conn3.png)
+![shared_conn3](/docs/assets/images/shared_conn3.png)
 
 <br>
 
@@ -98,7 +98,7 @@ Caractéristiques du mode Bridge:
 Configuration pour le mode Bridge
 
 - Sélectionnez votre carte réseau ainsi que le TAP, faites un clic droit et utilisez "Ajouter un pont"
-![image](/docs/.assets/images/bridge.png)
+![bridge](/docs/assets/images/bridge.png)
 - Editez les propriétés du pont pour configurer l'IPv4 en Statique (Important)
 
 <br>
