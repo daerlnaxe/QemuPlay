@@ -22,7 +22,7 @@ docs_dir: docs
 # Structure du menu principal de navigation, chemins relatifs au dossier docs_dir
 nav:
   - Home : index.md
-  - 'Qemu2D' : 
+  - 'Qemu2D' :  
     - 'Présentation' : 01-qemu2d/00-presentation.md
     - 'Démarrage' : 01-qemu2d/01-demarrage.md
     - 'Changelog' :  01-qemu2d/98-changelog.md
