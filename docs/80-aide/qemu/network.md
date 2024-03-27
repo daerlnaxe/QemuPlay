@@ -1,4 +1,4 @@
-Sommaire
+Sommaire:  
 - [Conseils](#Conseils)  
 - [Interface TAP OpenVPN](#Interface-Tap-OpenVPN)  
 - [Partage de connexion](Partage-de-connexion)  
@@ -10,7 +10,7 @@ Sommaire
 
 ----
 ## Modes Réseaux
-Différents modes:
+Différents modes:  
 - Par défaut :  
   - Connexion au net possible  
   - Impossible de dialoguer avec l'hôte.  
