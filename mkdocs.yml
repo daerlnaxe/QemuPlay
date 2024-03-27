@@ -22,24 +22,24 @@ docs_dir: docs
 # Structure du menu principal de navigation, chemins relatifs au dossier docs_dir
 nav:
   - Home : index.md
-  - Qemu2D : 
+  - 'Qemu2D' : 
     - 'Présentation' : 01-qemu2d/00-presentation.md
     - 'Démarrage' : 01-qemu2d/01-demarrage.md
     - 'Changelog' :  01-qemu2d/98-changelog.md
-  - Qemu3DFX : 02-qemu3dfx/index.md
-  - ArchW98 : 03-archw98/01-presentation.md
-  - Aide :
+  - 'Qemu3DFX' : 02-qemu3dfx/index.md
+  - 'ArchW98' : 03-archw98/01-presentation.md
+  - 'Aide' :
     - 'MkDocs' : 80-aide/mkdocs.md
-    - Qemu :
+    - 'Qemu' :
       - 'Hardware' : ./80-aide/qemu/hardware.md
       - 'Paramètres': ./80-aide/qemu/parametres.md
       - 'Réseau' : ./80-aide/qemu/network.md
-    - ShaderGlass:
+    - 'ShaderGlass':
       - 'Index' : ./80-aide/shaderglass/index.md
-    - Developpement:
-      - Script Powershell: ./90-developpement/01-script_powershell.md
-      - Image Disque: ./90-developpement/02-image_disque.md
-      - Matériel du Guest: ./90-developpement/03-guest_materiel.md
+  - 'Developpement':
+    - 'Script Powershell': ./90-developpement/01-script_powershell.md
+    - 'Image Disque' : ./90-developpement/02-image_disque.md
+    - 'Matériel du Guest': ./90-developpement/03-guest_materiel.md
   # Référencer les autres pages ci-dessus...
 
 # Configuration du thème https://squidfunk.github.io/mkdocs-material/creating-your-site/#configuration
