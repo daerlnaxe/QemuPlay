@@ -12,8 +12,8 @@ Sommaire:
 ## Modes Réseaux
 Différents modes:  
 - Par défaut :  
-    - Connexion au net possible  
-    - Impossible de dialoguer avec l'hôte.  
+    * Connexion au net possible  
+    * Impossible de dialoguer avec l'hôte.  
 - [Partage de connexion](Partage-de-connexion):  
     - Connexion au net possible  
     - Création d'un subnet où l'interface TAP est routeur  
