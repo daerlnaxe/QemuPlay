@@ -42,6 +42,8 @@ Types:
 - example  
 - quote  
 
+<br>
+
 #### Une ligne
 !!! warning "Le contenu est obligatoirement entre `""`"
 
@@ -52,6 +54,7 @@ Types:
 !!! note "une note"
 
 
+<br>
 
 #### Blocks
 ```

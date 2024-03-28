@@ -19,9 +19,5 @@
 ## Compression
 Le gain de compression est ~80Mo soit dans les 10% entre le plus rapide et le plus performant, que ça soit entre winrar4 et winzip.
 
-safe:
-:WARNING: test
-:safe
- 
 
 !!! note "La compression permet de lever tout l'espace vide; c'est suffisant."

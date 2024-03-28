@@ -1,4 +1,4 @@
-# Cartes videos:
+## Cartes videos:
 - none   : rien  
 - std    : standard VGA (default) - can work with [JHRobotics SoftGpu](https://github.com/JHRobotics/softgpu)  
   - Windows Host : Tested with SoftGpu, little problem on display settings but work by trying several times.  
@@ -12,7 +12,7 @@
 
 <br>
 
-# Cartes son:
+## Cartes son:
 - sb16   : Creative Sound Blaster 16, bus isa (peut poser problème*)  
 - AC97 : Intel 82801AA AC97 Audio, bus PCI, alias "ac97" (1999)  
 - ES1370 : ENSONIQ AudioPCI ES1370, bus PCI (1997)  
@@ -27,21 +27,21 @@ mettre -audio none pour ne rien avoir
 
 
 draft
-name "adlib", bus ISA, desc "Yamaha YM3812 (OPL2)"
-name "cs4231a", bus ISA, desc "Crystal Semiconductor CS4231A"
-name "gus", bus ISA, desc "Gravis Ultrasound GF1"
-name "hda-duplex", bus HDA, desc "HDA Audio Codec, duplex (line-out, line-in)"
-name "hda-micro", bus HDA, desc "HDA Audio Codec, duplex (speaker, microphone)"
-name "hda-output", bus HDA, desc "HDA Audio Codec, output-only (line-out)"
-name "ich9-intel-hda", bus PCI, desc "Intel HD Audio Controller (ich9)"
-name "intel-hda", bus PCI, desc "Intel HD Audio Controller (ich6)"
+name "adlib", bus ISA, desc "Yamaha YM3812 (OPL2)"  
+name "cs4231a", bus ISA, desc "Crystal Semiconductor CS4231A"  
+name "gus", bus ISA, desc "Gravis Ultrasound GF1"  
+name "hda-duplex", bus HDA, desc "HDA Audio Codec, duplex   (line-out, line-in)"  
+name "hda-micro", bus HDA, desc "HDA Audio Codec, duplex (speaker, microphone)"  
+name "hda-output", bus HDA, desc "HDA Audio Codec, output-only   (line-out)"  
+name "ich9-intel-hda", bus PCI, desc "Intel HD Audio Controller (ich9)"  
+name "intel-hda", bus PCI, desc "Intel HD Audio Controller (ich6)"  
 
-name "usb-audio", bus usb-bus
-name "virtio-sound-device", bus virtio-bus
-name "virtio-sound-pci", bus PCI, alias "virtio-sound", desc "Virtio Sound"
+name "usb-audio", bus usb-bus  
+name "virtio-sound-device", bus virtio-bus  
+name "virtio-sound-pci", bus PCI, alias "virtio-sound", desc   "Virtio Sound"  
 
 <br>
 
-# Cartes réseaux
+## Cartes réseaux
 - e1000  : 10/100/1000Mb (pci) 
 - RTL8139 : 100 mbps (1997)
