@@ -37,9 +37,8 @@ Pour créer une liste, il faut séparer le contenu de la liste du titre qui l'an
 
 Exemple de code:  
 ```
-Ma liste:
-
-- element 1
+Ma liste:  
+- element 1  
 - element 2
 ```
 
@@ -47,8 +46,8 @@ Ma liste:
 
 Rendu:  
 
-Ma liste:
-- element 1
+Ma liste:  
+- element 1  
 - element 2
 </div>
 </details>
