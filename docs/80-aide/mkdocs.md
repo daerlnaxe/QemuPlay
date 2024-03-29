@@ -33,14 +33,20 @@ Pour créer une liste, il faut séparer le contenu de la liste du titre qui l'an
 
 <details>
 <summary>Exemple:</summary>
+
 ```
 Ma liste:
 
 - element 1
 - element 2
 ```
+
+Ma liste:
+- element 1
+- element 2
 </details>
 
+<br>
 
 ## Avancé
 ### Alerter (admonition)
