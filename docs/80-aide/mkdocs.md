@@ -30,6 +30,7 @@ nav:
 
 Pour créer une liste, il faut séparer le contenu de la liste du titre qui l'annonce.
 
+!!! warning "Pour le moment je n'ai pas réussi à intégrer dans une balise details."
 
 <details >
 <summary>Exemple:</summary>
@@ -46,16 +47,11 @@ Ma liste:
 Rendu:  
 
 Ma liste:  
-
-- element 1    
-- element 2  
-
+<ul>
+<li>element 1</li>
+<li>element 2</li>
+</ul>
 </details>
-
-test:  
-
-- element 1  
-- element 2  
 
 <br>
 <br>
