@@ -46,8 +46,8 @@ Ma liste:
 Rendu:  
 
 Ma liste:  
-- element 1  
-- element 2
+- element 1    
+- element 2  
 
 </details>
 
