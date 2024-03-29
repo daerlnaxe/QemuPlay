@@ -12,6 +12,7 @@ Sommaire:
 ## Modes Réseaux
 Différents modes:  
 - Par défaut :
+
     * Connexion au net possible  
     * Impossible de dialoguer avec l'hôte.  
 - [Partage de connexion](Partage-de-connexion):  
