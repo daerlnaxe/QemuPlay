@@ -11,18 +11,16 @@ Sommaire:
 ----
 ## Modes Réseaux
 Différents modes:  
-- Par défaut :  
 
+- Par défaut :  
     * Connexion au net possible  
     * Impossible de dialoguer avec l'hôte.  
 - [Partage de connexion](Partage-de-connexion):  
-
     - Connexion au net possible  
     - Création d'un subnet où l'interface TAP est routeur  
         - Dialogue hôte<>guest possible  
         - Dialogue avec les machines du réseau impossible  
 - [Mode Bridge](#Mode-Bridge)  
-
     - connexion au net possible  
     - Machine considérée comme appartenant au réseau de l'hôte  
     - Dialogue hôte<>guest possible  
