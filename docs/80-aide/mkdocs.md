@@ -25,12 +25,30 @@ nav:
 <br>
 <hr>
 
+## Bases
+### Listes
+
+Pour créer une liste, il faut séparer le contenu de la liste du titre qui l'annonce.
+
+
+<details>
+<summary>Exemple:</summary>
+```
+Ma liste:
+
+- element 1
+- element 2
+```
+</details>
+
+
 ## Avancé
 ### Alerter (admonition)
 
 Types:  
+
 - note  
-- abstract  
+- abstract
 - info  
 - tip  
 - success  

@@ -29,21 +29,6 @@ Différents modes:
 
 <br>
 
-- Nulla et rhoncus turpis. Mauris ultricies elementum leo. Duis efficitur
-  accumsan nibh eu mattis. Vivamus tempus velit eros, porttitor placerat nibh
-  lacinia sed. Aenean in finibus diam.
-
-    * Duis mollis est eget nibh volutpat, fermentum aliquet dui mollis.
-    * Nam vulputate tincidunt fringilla.
-    * Nullam dignissim ultrices urna non auctor.
-
-- Nulla et rhoncus turpis. Mauris ultricies elementum leo. Duis efficitur
-  accumsan nibh eu mattis. Vivamus tempus velit eros, porttitor placerat nibh
-  lacinia sed. Aenean in finibus diam.
-    * Duis mollis est eget nibh volutpat, fermentum aliquet dui mollis.
-    * Nam vulputate tincidunt fringilla.
-    * Nullam dignissim ultrices urna non auctor.
-
 
 !!! NOTE 
     Si vous avez l'intention d'avoir plusieurs machines sous le même réseau, pensez à changer l'adresse MAC dans la ligne de commande.
@@ -79,7 +64,8 @@ Nécessite l'installation d'une [interface TAP](#Interface-TAP-OpenVPN)
 
 <br>
 
-Configuration carte réseau physique Hôte  
+Configuration carte réseau physique Hôte:
+
 - Aller sur la connexion de la carte physique  
 - Clic droit &larr; Propriétés  
 - Aller sur l'onglet `Partage`  
@@ -111,7 +97,8 @@ Caractéristiques du mode Bridge:
 
 <br>
 
-Configuration pour le mode Bridge  
+Configuration pour le mode Bridge:  
+
 - Sélectionnez votre carte réseau ainsi que le TAP, faites un clic droit et utilisez "Ajouter un pont"    
 ![bridge](../../assets/images/bridge.png)  
 - Editez les propriétés du pont pour configurer l'IPv4 en Statique (Important)  
