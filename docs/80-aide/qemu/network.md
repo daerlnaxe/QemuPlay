@@ -21,8 +21,8 @@ Différents modes:
     - Création d'un subnet où l'interface TAP est routeur  
         - Dialogue hôte<>guest possible  
         - Dialogue avec les machines du réseau impossible  
-
 - [Mode Bridge](#Mode-Bridge)  
+
     - connexion au net possible  
     - Machine considérée comme appartenant au réseau de l'hôte  
     - Dialogue hôte<>guest possible  
