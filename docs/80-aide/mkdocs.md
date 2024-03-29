@@ -33,7 +33,6 @@ Pour créer une liste, il faut séparer le contenu de la liste du titre qui l'an
 
 <details >
 <summary>Exemple:</summary>
-<div style="border: 2px solid;border-radius:5px;padding:10px">
 
 Exemple de code:  
 ```
@@ -49,7 +48,7 @@ Rendu:
 Ma liste:  
 - element 1  
 - element 2
-</div>
+
 </details>
 
 <br>
