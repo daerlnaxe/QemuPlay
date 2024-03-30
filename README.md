@@ -1,4 +1,4 @@
-# QemuPlay
+## QemuPlay
 Easy way to play on Windows 98 with qemu.
 
 FR/EN
@@ -42,5 +42,12 @@ Pour le moment je dois transférer tout mon travail depuis mes documents locaux.
 
 <br>
 
-Visit the [Wiki](https://github.com/daerlnaxe/QemuPlay/wiki) / Rendez vous dans le [Wiki](https://github.com/daerlnaxe/QemuPlay/wiki)
+Visit the [Wiki](https://github.com/daerlnaxe/QemuPlay/wiki)  
+Rendez vous sur le [site](https://daerlnaxe.github.io/QemuPlay/)
 
+<br>
+<br>
+
+## Samples
+
+[![alt text](./docs/assets/images/starcraft_shader_ext.png))](https://www.youtube.com/watch?v=rqZagp_78ZE)
