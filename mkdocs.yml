@@ -46,7 +46,7 @@ nav:
   - 'Developpement':
     - 'Script Powershell': ./90-developpement/01-script_powershell.md
     - 'Image Disque' : ./90-developpement/02-image_disque.md
-    - 'Matériel du Guest': ./90-developpement/03-guest_materiel.md
+    - 'Windows 98': ./90-developpement/03-w98.md
   # Référencer les autres pages ci-dessus...
 
 # Configuration du thème https://squidfunk.github.io/mkdocs-material/creating-your-site/#configuration
