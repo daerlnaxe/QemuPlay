@@ -30,6 +30,12 @@ Sommaire:
 - Crt Shaders (en option)
 - Réseau
 - Contexte des jeux préservé **au maximum**
+- Son*
+
+<br>
+
+!!! Note "Son"
+    Bien que celà puisse paraitre étrange certaines solutions qui semblent intéressantes sur le net ont un son coupé, haché, c'est souvent masqué dans les vidéos disponibles sur le net. Le son fonctionne parfaitement sur ce que je propose.
 
 
 <br>
