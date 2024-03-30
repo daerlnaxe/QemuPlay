@@ -48,3 +48,13 @@ qemu-img create -f raw <Nom> 10G
 
 ## Etendre une image
 ### Image Raw
+```
+qemu-img resize <lien vers l'image> +<taille désirée>
+```
+
+<br>
+
+Exemple:
+```
+qemu-img resize "E:\VM\Qemu\Qemu_Perso\win98fr.raw" +7G
+```

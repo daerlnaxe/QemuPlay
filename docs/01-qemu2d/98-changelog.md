@@ -1,22 +1,35 @@
 
 # Changelog
 ## PowerShell script
-- v0.3
-  - Video card choice added in configuration
-  - Code splitted in functions and modifications about the configuration checks
+
+- v0.4 Work In Progress  
+    - [x]Spice mode  
+    - [ ] Remote control mode for Spice mode.  
+    - [ ] Seeing SSH mode  
+    - [ ] Launching putty if telnet mode  
+- v0.3  
+    - Video card choice added in configuration  
+    - Code splitted in functions and modifications about the   configuration checks  
 
 <br>
 
 ## HDD Image
-- v0.31
-  - System stabilization: a lot of bugs about drivers, seems ok with cirrus 5446 + e1000 or std with jh robotics 2d drivers
-  - FTP serveur modified for a free version: typsoft ftp server ()
+
+- v0.35  
+    - System stabilization: improved stabilization, works fine with cirrus vga card, rtl8039, sb16 with SDL mode.  
+    - Some free programs added   
+    - Registry Backup
+    - HardDrive extended to 10G with a second partition.
+- v0.31  
+    - System stabilization: a lot of bugs about drivers, seems ok with cirrus 5446 + e1000 or std with jh robotics 2d drivers
+    - FTP serveur modified for a free version: typsoft ftp server ()
  
 <br>
 <br>
 
 ## Old_Changements
 - v0.3.0: 
+    - Clean OS install
     - Dissociation paquet/image
     - Paquet d'installation
       - Refonte du tutoriel pour être plus accessible + ajout au package.

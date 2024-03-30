@@ -29,8 +29,17 @@ Le disque système n'est pas très grand (un peu comme à l'époque) et a été 
 <br>
 
 ### Logiciel préinstallés
+!!! info "Les versions installés sont gratuites ou des sharewares sans clé."
+
 - Cpu-Z  
-- Typesoft FTP srver
+- Typesoft FTP server
+- Firefox
+- Daemon Tools
+- Winrar
+- CCleaner
+- Process Explorer
+
+
 
 <br>
 <br>

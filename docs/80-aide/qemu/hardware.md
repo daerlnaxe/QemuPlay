@@ -1,3 +1,6 @@
+##
+https://qemu-project.gitlab.io/qemu/about/removed-features.html
+
 ## Système
 
 - pentium2  
@@ -39,7 +42,10 @@ mettre -audio none pour ne rien avoir
 
 <br> 
 
+!!! Note
+    Test sans la carte réseau distante
 
+<br> 
 
 draft
 name "adlib", bus ISA, desc "Yamaha YM3812 (OPL2)"  
