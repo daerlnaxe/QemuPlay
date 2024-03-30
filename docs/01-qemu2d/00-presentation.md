@@ -24,7 +24,11 @@ Ce package a pour but de permettre de créer une machine virtuelle sous QEMU afi
 <br>
 
 ## Image HDD windows 98
-Le disque système n'est pas très grand (un peu comme à l'époque) et a été prévu pour accueillir surtout l'OS. Je vous invite à consulter le fichier [Win98 On QEMU.pdf](./Win9x%20On%20QEMU%20v0.2.0.pdf) pour voir comment faire un autre disque et le charger, le plus important est détaillé.
+Dernière version: v0.35
+
+Le disque système est actuellement porté de 3.2Go à ~10Go
+
+Si vous désirez faire votre propre image je vous invite à lire le fichier [Win98 On QEMU.pdf](../../Qemu2D/Win9x%20On%20QEMU%20v0.2.0.pdf), le plus important est détaillé.
 
 <br>
 
