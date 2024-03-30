@@ -129,7 +129,7 @@ markdown_extensions: # https://squidfunk.github.io/mkdocs-material/reference/abb
 
 plugins:
   - search # Inclure une barre de recherche
-  - git-revision-date-localized  # Ajoute la date de révision du document        
+  - git-revision-date-localized  # Ajoute la date de révision du document
 
   # - mkdocs-jupyter: # Convertir les fichiers .ipynb et .py en pages du site https://github.com/danielfrg/mkdocs-jupyter
   #     kernel_name: python3
