@@ -27,8 +27,7 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material
-      - run: pip install mkdocs-git-revision-date-localized-plugin
-
+      - run: pip3 install mkdocs-git-revision-date-localized-plugin
       # - run: pip install mkdocs-roamlinks-plugin # Pour convertir les [[liens internes]] en []()
       # - run: pip install mkdocs-git-revision-date-localized-plugin # Pour afficher la date de révision - https://pypi.org/project/mkdocs-git-revision-date-localized-plugin/
       # - run: pip install mkdocs-callouts 
