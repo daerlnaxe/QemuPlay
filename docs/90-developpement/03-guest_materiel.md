@@ -16,3 +16,10 @@ Bugs:
     - Exe qui posent problème DDraw16.dll  
 - cirmm.drv : exemple en lançant winrar, l'extraction amène une erreur.  
 
+<br>
+<br>
+
+## Cartes sons
+
+!!! Warning
+    Il y aurait des problèmes en mode GTK Qemu et certains drivers creative labs.
