@@ -1,6 +1,6 @@
 <#
     Auteur: Alexandre CODOUL aka Daerlnaxe
-    Version: 0.3
+    Version: 0.4
     Date: 16/03/2024
 
     Permet de lancer QEMU avec les paramètres nécessaires, en attendant de faire un petit programme.
