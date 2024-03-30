@@ -1,11 +1,3 @@
-----
-table {
-  border: 10px solid;
-  width: 100%;
-  border-radius: 10px;
-}
-
-----
 
 Welcome to the QemuPlay wiki!
 
@@ -63,3 +55,26 @@ Qemu3DFX
 
 ArchW98
 [![archw98_sc](./assets/images/archw98_sc.png)](https://www.youtube.com/watch?v=eMOHkDOMRu0&t=318s)
+
+
+<br>
+
+## Auteur
+
+- Daerlnaxe aka Alexandre Codoul: initiateur, rédacteur doc, vm, images, scripts, ...
+
+<br>
+
+Personne d'autre pour le moment (hélas)
+
+
+<br>
+<br>
+
+## Crédits
+Il va en manquer je vais rajouter au fur et à mesure.
+
+- Ma famille pour me supporter :D
+- Les membres [Win3x.org](http://www.win3x.org)
+- Les membres [Abandonware](https://www.abandonware-forums.org)
+- JH Robotics pour son excellent travail sur les cartes vidéos.
