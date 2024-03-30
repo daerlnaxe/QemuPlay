@@ -30,9 +30,9 @@ Pour avoir des explications plus poussées voir le fichier `Win98 On Qemu.pdf` d
 
 ### Liens
 - [Téléchargement pour installation ](https://app.mediafire.com/0h1koc37bbeo5)
-  - Image HDD:
-    - FR : win98se-fr-v0.3
-  - Qemu_Package-v0.3
+    - Image HDD:
+        - FR : win98se-fr-v0.3
+    - Qemu_Package-v0.3
 - [ShaderGlass Releases](https://github.com/mausimus/ShaderGlass/releases) : Optionnel, pour améliorer le rendu via des shaders.
 - [Win98 On Qemu.pdf](https://github.com/daerlnaxe/QemuPlay/blob/main/Qemu2D/Win9x%20On%20QEMU%20v0.2.0.pdf) : Explications plus poussées mais également un mémo DOS pour les partitions.
 
@@ -44,7 +44,6 @@ Pour avoir des explications plus poussées voir le fichier `Win98 On Qemu.pdf` d
 
 
 <br>
-
 <hr>
 
 ## Installation
@@ -55,14 +54,16 @@ Pour avoir des explications plus poussées voir le fichier `Win98 On Qemu.pdf` d
 
 
 <br>
-
-#### Réseau (optionnel)
 <br>
+
+### Réseau (optionnel)
 
 !!! note 
     Je vous propose une connexion en mode bridge, vous pouvez accéder au net comme à toutes les machines du réseau
 
 <br>
+
+Procédure:
 
 - Suivre le tutoriel de cette[page](https://github.com/daerlnaxe/QemuPlay/wiki/AideR%C3%A9seauQemu#Mode-Bridge) indiquant la mise en place.
 - Au niveau du guest, éventuellement paramétrer la Passerelle, mais vous pouvez laisser la configuration en automatique.
@@ -80,6 +81,7 @@ Vous pouvez lancer en ligne de commande ou utiliser le nouveau script powershell
 C'est un début de script **PowerShell**, si le fichier de configuration json n'existe pas il sera créé.
 
 Fonctionnement:
+
 - Choix:
     - Lancement sans réseau
     - Lancement avec réseau
@@ -92,7 +94,7 @@ Fonctionnement:
 
 <br>
 
-Exemple:
+Exemple de résultat avec le script:
 ```PowerShell
 PS E:\Temp\Qemu_Perso> .\Qemu2D.ps1
 Programme lancé depuis 'E:\Temp\Qemu_Perso'
@@ -116,16 +118,16 @@ Fin de script Qemu2D
 Procédure:
 
 - Ouvrez une invite de commande ou powershell.
-  - Déplacez vous dans le répertoire d'installation de QEMU
+    - Déplacez vous dans le répertoire d'installation de QEMU
     - Lancez la commande (voir aide):
-      - **Avec** prise en charge réseau mode bridge
-      ```Powershell
-      .\qemu-system-i386.exe -cpu pentium2 -m 256 -vga cirrus -drive format=raw,file=<Image Disque Systeme> -cdrom <Lettre> -device sb16 -netdev tap,id=netw0,ifname=OpenVPN_TAP,script=no,downscript=no -device rtl8139,netdev=netw0,mac=52:55:00:d1:55:01 -usb -no-acpi -k fr-fr -no-reboot -sdl    
+        - **Avec** prise en charge réseau mode bridge
+        ```Powershell
+        .\qemu-system-i386.exe -cpu pentium2 -m 256 -vga cirrus -drive format=raw,file=<Image Disque Systeme> -cdrom <Lettre> -device sb16 -netdev tap,id=netw0,ifname=OpenVPN_TAP,script=no,downscript=no -device rtl8139,netdev=netw0,mac=52:55:00:d1:55:01 -usb -no-acpi -k fr-fr -no-reboot -sdl    
         ```
-      - **Sans** prise en charge réseau
-      ```Powershell
-      .\qemu-system-i386.exe -cpu pentium2 -m 256 -vga cirrus -drive format=raw,file=<Image Disque Systeme> -cdrom <Lettre> -device sb16 -nic none -usb -no-acpi -k fr-fr -no-reboot -sdl    
-      ```
+        - **Sans** prise en charge réseau
+        ```Powershell
+        .\qemu-system-i386.exe -cpu pentium2 -m 256 -vga cirrus -drive format=raw,file=<Image Disque Systeme> -cdrom <Lettre> -device sb16 -nic none -usb -no-acpi -k fr-fr -no-reboot -sdl    
+        ```
 - QEMU démarre
 
 <br>
@@ -148,6 +150,7 @@ Si vous désirez améliorer le rendu, vous pouvez utiliser ShaderGlass.
 <br>
 
 Manipulation
+
 - Décompressez ShaderGlass où vous voulez par contre pensez à faire un lien dans le menu et éventuellement dans la barre des tâches
 - Maximisez la fenêtre de QEMU
 - Optimisation du rendu (optionnel)
@@ -161,5 +164,6 @@ Manipulation
 
 ## A Faire
 Dès la connexion:
+
 - Changez votre mot de passe réseau
 - Changez le mot de passe de typsoft ftp server
