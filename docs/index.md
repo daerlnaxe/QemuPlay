@@ -8,9 +8,10 @@ Bienvenue sur QemuPlay, l'objet est d'aider à utiliser Qemu pour lancer de vieu
 <br>
 
 Sommaire:  
-- [Qemu2D](./01-qemu2d/00-presentation.md) :  Fonctionne sous windows
-- [Qemu3DFX](./02-qemu3dfx/) : Fonctionne sous windows (opengl)
-- [ArchW98](./03-archw98/01-presentation.md) : Basé sur ArchLinux à lancer sur clé usb, ssd externe (simplifié à l'extrême)
+
+- [Qemu2D](./01-qemu2d/00-presentation.md) :  Fonctionne sous windows  
+- [Qemu3DFX](./02-qemu3dfx/) : Fonctionne sous windows (opengl)  
+- [ArchW98](./03-archw98/01-presentation.md) : Basé sur ArchLinux à lancer sur clé usb, ssd externe (simplifié à l'extrême)  
 
 <br>
 
