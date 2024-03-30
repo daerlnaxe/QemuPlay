@@ -1,9 +1,9 @@
 <#
     Auteur: Alexandre CODOUL aka Daerlnaxe
     Version: 0.4
-    Date: 16/03/2024
+    Date: 30/03/2024
 
-    Permet de lancer QEMU avec les paramètres nécessaires, en attendant de faire un petit programme.
+    Permet de lancer QEMU avec les paramÃ¨tres nÃ©cessaires, en attendant de faire un petit programme.
 #>
 
 
@@ -11,8 +11,8 @@
 ## Creation
 function ConfigFileCreation
 {
-    write-host "Création du fichier de configuration"
-    # Création de l'objet config
+    write-host "CrÃ©ation du fichier de configuration"
+    # CrÃ©ation de l'objet config
     $config = New-Object -TypeName PSCustomObject
     $config | Add-Member -MemberType NoteProperty -Name "QemuPath"
     $config | Add-Member -MemberType NoteProperty -Name "VideoCard"
@@ -25,7 +25,7 @@ function ConfigFileCreation
 ## Config File Writing
 function ConfigFileWriting($config)
 {
-#Conversion + écriture
+#Conversion + Ã©criture
     $config | ConvertTo-Json | Out-File $configFile
 }
 
@@ -121,15 +121,15 @@ function VideoCardVerification($videocard)
 
 
 # Main
-## Paramétrage
+## ParamÃ©trage
 $qemuComm="qemu-system-x86_64.exe"
 #$qemuComm="qemu-system-i386.exe"
 
 
 
-# Récupération du chemin actuel
+# RÃ©cupÃ©ration du chemin actuel
 $folderPath=Split-Path $MyInvocation.MyCommand.Path -Parent
-write-host "Programme lancé depuis '$folderPath'"
+write-host "Programme lancÃ© depuis '$folderPath'"
 
 # Chemin du fichier de configuration
 $configFile= join-path $folderPath -childpath "Qemu2D.json"
@@ -152,7 +152,7 @@ $config=Get-Content -Raw -Path $configFile | ConvertFrom-Json
 
 # Config Verifications
 
-### Chemin de l'éxécutable
+### Chemin de l'Ã©xÃ©cutable
 Write-Host $config.QemuPath
 if (-Not (Test-Path $(Join-Path $config.QemuPath -childpath $qemuComm)))
 {
@@ -190,18 +190,18 @@ if (-Not( Test-Path $config.CDRom))
 
 
 
-## Vérifications
+## VÃ©rifications
 
 $config.QemuPath="D:\Programmes\x64\Programmation\MSYS2\ucrt64\bin"
-# chemin de l'éxécutable qemu
+# chemin de l'Ã©xÃ©cutable qemu
 $exePath=join-path $config.QemuPath -childpath $qemuComm
 
 
-# Paramétrage
+# ParamÃ©trage
 $args=$null
 Write-Host "Choix de lancement:"
-Write-Host "`t1) Sans réseau"
-Write-Host "`t2) Réseau mode bridge"
+Write-Host "`t1) Sans rÃ©seau"
+Write-Host "`t2) RÃ©seau mode bridge"
 <#Write-Host "`t3) Bridge NoSDL"#>
 Write-Host "`t4) Bridge VNC"
 Write-Host "`t5) Bridge Spice"
@@ -230,7 +230,7 @@ While ($true)
     if ($val -eq "1")
     {
 
-        # Ne pas oublier le caractère d'échappement ` si utilisation de "-device sb16 -vga $($config.VideoCard) | usb enlevé
+        # Ne pas oublier le caractÃ¨re d'Ã©chappement ` si utilisation de "-device sb16 -vga $($config.VideoCard) | usb enlevÃ©
         $args= "-cpu pentium2 -m 256 -vga cirrus -drive format=raw,file=`"$hddPath`" -cdrom $cdromPath -device sb16 -nic none -machine acpi=off -k fr-fr -no-reboot -display sdl -boot menu=on"
         break
     }
@@ -262,9 +262,9 @@ try
 {
     # Lancement de QEMU    
     $process=Start-Process $exePath -ArgumentList $args -PassThru 
-    # Changement de priorité (256:real time,)
+    # Changement de prioritÃ© (256:real time,)
     $process.PriorityClass=128
-    Write-Host "Lancement de: '$exePath $args' avec la priorité $($process.PriorityClass)"
+    Write-Host "Lancement de: '$exePath $args' avec la prioritÃ© $($process.PriorityClass)"
     $Process.Id
     
 
