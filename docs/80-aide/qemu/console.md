@@ -43,7 +43,11 @@ Procédure:
 
 - Identification des médias disponibles, taper `info block` 
 ![info_block.png](../../assets/images/info_block.png)
-- Pour changer le CD-Rom désigné par `ide1-cd0`, taper `change ide1-cd0 <lien vers l'image|lecteur>`
+- Pour changer le CD-Rom désigné par `ide1-cd0`:  
+     - Taper
+     ```
+     change ide1-cd0 <lien vers l'image|lecteur>
+     ```
 
 <br>
 
