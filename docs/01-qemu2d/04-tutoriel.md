@@ -22,9 +22,10 @@ Ce tutoriel a pour but de permettre une mise en place rapide.
 
 Pour avoir des explications plus poussées voir le fichier `Win98 On Qemu.pdf` disponibles dans les liens.
 
-> [!NOTE]
-> Bien que ce tutoriel puisse vous paraître long, c'est en réalité très rapide et simple à mettre en œuvre, c'est très détaillé pour aider les débutants.
+!!! info 
+    Bien que ce tutoriel puisse vous paraître long, c'est en réalité très rapide et simple à mettre en œuvre, c'est très détaillé pour aider les débutants.
 
+<br>
 <br>
 
 ### Liens
@@ -44,6 +45,8 @@ Pour avoir des explications plus poussées voir le fichier `Win98 On Qemu.pdf` d
 
 <br>
 
+<hr>
+
 ## Installation
 ### Base
 - Décompressez le package
@@ -56,8 +59,8 @@ Pour avoir des explications plus poussées voir le fichier `Win98 On Qemu.pdf` d
 #### Réseau (optionnel)
 <br>
 
-> [!Note]
-> Je vous propose une connexion en mode bridge, vous pouvez accéder au net comme à toutes les machines du réseau
+!!! note 
+    Je vous propose une connexion en mode bridge, vous pouvez accéder au net comme à toutes les machines du réseau
 
 <br>
 
@@ -65,14 +68,15 @@ Pour avoir des explications plus poussées voir le fichier `Win98 On Qemu.pdf` d
 - Au niveau du guest, éventuellement paramétrer la Passerelle, mais vous pouvez laisser la configuration en automatique.
 
 <br>
+<hr>
 
 
-### Lancement
+## Lancement
 Vous pouvez lancer en ligne de commande ou utiliser le nouveau script powershell
 
 <br>
 
-#### Lancement automatisé de QEMU
+### Lancement automatisé de QEMU
 C'est un début de script **PowerShell**, si le fichier de configuration json n'existe pas il sera créé.
 
 Fonctionnement:
@@ -81,6 +85,10 @@ Fonctionnement:
     - Lancement avec réseau
 - Vous êtes guidé dans les étapes.
 - Lance Automatiquement ShaderGlass (si l'exe est dans le même dossier)
+
+<br>
+
+!!! Note "Des évolutions apparaitront afin de permettre plus de choix."
 
 <br>
 
@@ -98,12 +106,15 @@ Fin de script Qemu2D
 ```
 <br>
 
-> [!WARNING]
-> Si un des chemins utilisé n'existe pas, vous aurez une sortie sèche sans avertissement
+!!! WARNING 
+    Si un des chemins utilisé n'existe pas, vous aurez une sortie sèche sans avertissement
 
 <br>
+<br>
 
-#### Lancement Manuel de QEMU
+### Lancement Manuel de QEMU
+Procédure:
+
 - Ouvrez une invite de commande ou powershell.
   - Déplacez vous dans le répertoire d'installation de QEMU
     - Lancez la commande (voir aide):
@@ -118,20 +129,21 @@ Fin de script Qemu2D
 - QEMU démarre
 
 <br>
- 
-#### Optimisation du rendu
+<br> 
+
+### Optimisation du rendu
 Si vous désirez améliorer le rendu, vous pouvez utiliser ShaderGlass.
 
 
 <br>
 
-> [!WARNING]
-> A chaque changement de résolution, si vous êtes en mode Input:window il faudra refaire la manipulation.
+!!! WARNING
+    A chaque changement de résolution, si vous êtes en mode Input:window il faudra refaire la manipulation.
 
 <br>
 
-> [!NOTE]
-> Une version est mise à disposition dans le package au cas où, avec un fichier de configuration `Qemu2D_Default.sgp` 
+!!! NOTE 
+    Une version est mise à disposition dans le package au cas où, avec un fichier de configuration `Qemu2D_Default.sgp` 
 
 <br>
 
@@ -145,6 +157,7 @@ Manipulation
     - Mettez ShaderGlass en plein écran avec CTRL+Shift+G
 
 <br>
+<hr>
 
 ## A Faire
 Dès la connexion:
