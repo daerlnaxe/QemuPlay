@@ -7,7 +7,7 @@ site_url: https://daerlnaxe.github.io/QemuPlay/ # Adresse web principale de publ
 # Ajoute en haut à droite de chaque page du site, icône, nom et lien vers le dépot GitHub du projet.
 repo_url: https://github.com/daerlnaxe/QemuPlay/
 repo_name: 'QemuPlay' # Personnalise le nom générique "GitHub" donné par défaut au lien vers le dépot GitHub du projet.
-edit_uri: edit/main/docs/ # Complément au chemin pour aller depuis `repo_url:` jusqu'au répertoire `docs` ;
+edit_uri: docs/ #edit/main/docs/ # Complément au chemin pour aller depuis `repo_url:` jusqu'au répertoire `docs` ;
 # Ce qui permet avec MkDocs-Material d'ajouter un bouton (crayon) d'édition du code source.md d'une page du site depuis le navigateur
 # (edit => édition avec connexion | blob, tree => lecture anonyme)
 
