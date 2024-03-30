@@ -25,6 +25,8 @@ nav:
   - 'Qemu2D' :  
     - 'Présentation' : 01-qemu2d/00-presentation.md
     - 'Démarrage' : 01-qemu2d/01-demarrage.md
+    - Lancement Basique : 01-qemu2d/03-lancement_basique.md
+    - Tutoriel : 01-qemu2d/04-tutoriel.md
     - 'Changelog' :  01-qemu2d/98-changelog.md
   - 'Qemu3DFX' : 02-qemu3dfx/index.md
   - 'ArchW98' : 03-archw98/01-presentation.md
