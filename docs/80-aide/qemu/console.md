@@ -1,4 +1,14 @@
 # Présentation
+La console permet d'envoyer des commandes à QEMU, que cela soit pour:
+
+- Changer de disque
+- Collecter des informations
+- Mettre en pause le guest.
+- ...
+
+<br>
+
+
 ## Lancement de la console
 ### Lancement de la console en mode SDL
 
