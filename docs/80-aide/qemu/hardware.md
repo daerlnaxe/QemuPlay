@@ -21,6 +21,10 @@
 (- device `ati-vga` 2 ati rage pro)
 
 <br>
+
+!!! Warning "les cartes cirrus semblent poser problèmes à mesure que les versions de QEMU montent"
+
+<br>
 <hr>
 
 ## Cartes son:

@@ -6,6 +6,50 @@ order: 2
 
 
 # Paramètres
+## Note sur la syntaxe
+
+- `<lien>` : Les chevrons ne sont pas à mettre, ils indiquent que vous devez compléter en adaptant à votre situaiton.
+
+<br>
+
+exemple:
+- Utiliser une iso pour votre cdrom
+```
+-cdrom "<lien>"
+```
+- Vous compléterez par votre chemin, ici pour moi:
+```
+-cdrom "e:\isos\windows 98.iso"`
+```
+
+
+<br>
+<br>
+
+## Supports
+Quelques exemples pour correctement entrer les liens vers les supports.
+
+Exemples:  
+
+- Windows: `-cdrom r:`
+- Windows: `-cdrom "e:\isos\windows 98.iso"`
+- Ubuntu: `-cdrom /dev/sr0`
+
+<br>
+<hr>
+
+## CD-Rom
+Utiliser `-cdrom "<lien>"`
+
+!!! note Ils peuvent être un lecteur physique ou virtuel, une iso...
+
+<br>
+
+## Disquette
+utiliser `-fda <lien>`
+
+<br>
+
 ## Ordre de boot
 Activer le `menu boot`
 ```bash
