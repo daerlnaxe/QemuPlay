@@ -128,7 +128,7 @@ markdown_extensions: # https://squidfunk.github.io/mkdocs-material/reference/abb
         smart_dollar: false
 
 plugins:
-  - search # Inclure une barre de recherche
+  - search                       # Inclure une barre de recherche
   - git-revision-date-localized  # Ajoute la date de révision du document
 
   # - mkdocs-jupyter: # Convertir les fichiers .ipynb et .py en pages du site https://github.com/danielfrg/mkdocs-jupyter
@@ -139,8 +139,8 @@ plugins:
 ### Configuration d'une licence
 # Information de droit d'auteur qui s'affiche dans le pied de page pour toutes les pages du site
 #copyright: >
-    Document partagé par <a href="https://github.com/daerlnaxe" target="_blank">Alexandre CODOUL</a>
-    &copy; 2023 sous licence <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr" target="_blank">CC BY-NC-SA 4.0</a>
+#    Document partagé par <a href="https://github.com/daerlnaxe" target="_blank">Alexandre CODOUL</a>
+#    &copy; 2023 sous licence <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr" target="_blank">CC BY-NC-SA 4.0</a>
 #    <br> Illustrations par <a href="https://undraw.co/" target="_blank">UnDraw</a>
 
 
