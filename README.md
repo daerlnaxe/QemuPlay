@@ -51,3 +51,12 @@ Rendez vous sur le [site](https://daerlnaxe.github.io/QemuPlay/)
 ## Samples
 
 [![alt text](./docs/assets/images/starcraft_shader_ext.png))](https://www.youtube.com/watch?v=rqZagp_78ZE)
+
+
+<br>
+<br>
+
+## Development/Développement
+
+- [PowerShell Script](./docs/90-developpement/01-script_powershell.md)
+

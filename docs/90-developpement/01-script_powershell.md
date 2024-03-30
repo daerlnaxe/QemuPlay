@@ -1,12 +1,16 @@
+[Toc]
+
 # TODO
 - [ ] Include parameter for ShaderGlass in JSon  
 - [x] Functions  
-- [x] Adding VGA Card choice  
+- [x] Adding VGA Card choice 
+- [x] deported display
 
 <br>
 
 # Etude
-Récupérer le chemin d'installation de qemu
+## Get install path of Qemu on Windows
+
 ```Powershell
 Get-ChildItem -Path $env:ProgramFiles -Recurse -Filter '*.exe' -ErrorAction SilentlyContinue | Where-Object {$_.FullName -like '*qemu*'} | Select-Object FullName
 ```
@@ -14,4 +18,4 @@ Get-ChildItem -Path $env:ProgramFiles -Recurse -Filter '*.exe' -ErrorAction Sile
 <br>
 
 !!! warning
-    Prends trop de temps sur la réponse
+    Too much time
