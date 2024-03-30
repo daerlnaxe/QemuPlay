@@ -44,7 +44,7 @@ Sommaire:
 ## Samples
 
 Qemu2d, enregistrement direct
-[![qemu2d_baldur_int](./assets/images/qemu2d_baldur_int.png)](https://www.youtube.com/watch?v=uikYgPtidcg&t=146s)
+[![qemu2d_baldur_int](./assets/images/qemu2d_baldur_int.png)](https://www.youtube.com/watch?v=uikYgPtidcg)
 
 
 <br>

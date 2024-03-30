@@ -6,7 +6,9 @@ Ce package a pour but de permettre de créer une machine virtuelle sous QEMU afi
 <br>
 
 ## Références
-- [Video Online](http://www.youtube.com/watch?v=rqZagp_78ZE)
+- Prise interne [Starcraft](https://www.youtube.com/watch?v=dm5u3c9vgHs)
+- Prise interne [Baldur's Gate](https://www.youtube.com/watch?v=uikYgPtidcg)
+- Prise externe avec CRT [Video Online](http://www.youtube.com/watch?v=rqZagp_78ZE)
 
 <br>
 <br>
