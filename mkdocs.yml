@@ -31,7 +31,6 @@ nav:
   - 'Qemu3DFX' : 02-qemu3dfx/index.md
   - 'ArchW98' : 03-archw98/01-presentation.md
   - 'Aide' :
-    - 'MkDocs' : 80-aide/mkdocs.md
     - 'Qemu' :
       - 'Hardware' : ./80-aide/qemu/hardware.md
       - 'Paramètres': ./80-aide/qemu/parametres.md
@@ -40,6 +39,7 @@ nav:
       - 'Index' : ./80-aide/shaderglass/index.md
     - 'Windows 98':
       - affichage : ./80-aide/windows_98/affichage.md
+    - 'MkDocs' : 80-aide/mkdocs.md      
   - 'Developpement':
     - 'Script Powershell': ./90-developpement/01-script_powershell.md
     - 'Image Disque' : ./90-developpement/02-image_disque.md
