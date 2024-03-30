@@ -26,7 +26,7 @@ Sommaire:
 
 - Mise en oeuvre simplifiée pour les néophytes (scripts, images windows, ...)
 - Light
-- Aspect ratio préservé
+- Aspect ratio préservé (l'image n'est pas étirée ni coupée)
 - Crt Shaders (en option)
 - Réseau
 - Contexte des jeux préservé **au maximum**
