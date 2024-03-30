@@ -38,6 +38,8 @@ nav:
       - 'Réseau' : ./80-aide/qemu/network.md
     - 'ShaderGlass':
       - 'Index' : ./80-aide/shaderglass/index.md
+    - 'Windows 98':
+      - affichage : ./80-aide/windows_98/affichage.md
   - 'Developpement':
     - 'Script Powershell': ./90-developpement/01-script_powershell.md
     - 'Image Disque' : ./90-developpement/02-image_disque.md
