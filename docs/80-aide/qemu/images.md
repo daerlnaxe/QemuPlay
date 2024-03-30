@@ -24,6 +24,27 @@
 <br>
 <br>
 
-## Tips
-### Editer une image Raw
 
+## Introduction
+Pour les débutants, les commandes sont à taper via powershell, cmd, ou même cli Linux. Sous windows il faudra aller dans le dossier où se trouve les éxécutables (`cd <dossier>`)
+
+## Création
+### Images Raw
+
+Créer une image (pour faire un disque dur, taille 10Giga ici):
+```
+qemu-img create -f raw <Nom> 10G
+```
+
+<br>
+<br>
+
+## Edition
+### Image Raw
+
+<br>
+<br>
+
+
+## Etendre une image
+### Image Raw
