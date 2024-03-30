@@ -90,6 +90,7 @@ Nécessite l'installation d'une [interface TAP](#Interface-TAP-OpenVPN)
 <br>
 
 Caractéristiques du mode Bridge:  
+
 - Passerelle identique pour tout le monde  
 - Serveur DHCP du réseau peuvent définir l'IP  
 - L'hôte à une adresse IP  
