@@ -31,6 +31,7 @@ nav:
   - 'Qemu3DFX' : 02-qemu3dfx/index.md
   - 'ArchW98' : 03-archw98/01-presentation.md
   - 'Aide' :
+    - './80-aide/index.md'
     - 'Qemu' :
       - 'Hardware' : ./80-aide/qemu/hardware.md
       - 'Paramètres': ./80-aide/qemu/parametres.md
