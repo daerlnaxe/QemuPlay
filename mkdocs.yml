@@ -99,7 +99,8 @@ markdown_extensions: # https://squidfunk.github.io/mkdocs-material/reference/abb
     - attr_list                     # Sélecteurs CSS et attributs HTML personnalisés
     - md_in_html                    # Pour écrire en MarkDown dans des balises HTML https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/#markdown-in-html
     - footnotes                     # Notes[^1] de bas de page.  [^1]: ma note.
-    
+    - git-revision-date-localized:  # Ajoute la date de révision du document
+        enable_creation_date: true
     - toc:                          # Configuration de la table des matières générée automatiquement à partir des titres du niveau 2
         permalink: "&num;"          # Ajoute un symbole lien hypertexte vers l'ancre du titre #le-titre 
         toc_depth: 4                # Limite de la profondeur d'inclusion des titres dans la table des matières
