@@ -138,7 +138,7 @@ plugins:
 
 ### Configuration d'une licence
 # Information de droit d'auteur qui s'affiche dans le pied de page pour toutes les pages du site
-#copyright: >
+copyright: >
     Document partagé par <a href="https://github.com/daerlnaxe" target="_blank">Alexandre CODOUL</a>
     &copy; 2023 sous licence <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr" target="_blank">CC BY-NC-SA 4.0</a>.
 #    <br> Illustrations par <a href="https://undraw.co/" target="_blank">UnDraw</a>
