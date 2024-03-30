@@ -48,10 +48,10 @@ Procédure:
      ```
      change ide1-cd0 <lien vers l'image|lecteur>
      ```
-
+     
 <br>
 
-Exemple de résultat avec la commande:
+Exemple de résultat:
 
 - Partie console  
 ![change_cdrom](../../assets/images/change_cdrom.png)
