@@ -16,9 +16,9 @@ Bienvenue sur QemuPlay, l'objet est d'aider à utiliser Qemu pour lancer de vieu
 <br>
 
 Sommaire:  
-- [Qemu2D](./01-qemu2d/00-presentation.md) :  
-- [Qemu3DFX](./02-qemu3dfx/)  
-- [ArchW98](./03-archw98/01-presentation.md)  
+- [Qemu2D](./01-qemu2d/00-presentation.md) :  Fonctionne sous windows
+- [Qemu3DFX](./02-qemu3dfx/) : Fonctionne sous windows (opengl)
+- [ArchW98](./03-archw98/01-presentation.md) : Basé sur ArchLinux à lancer sur clé usb, ssd externe (simplifié à l'extrême)
 
 <br>
 
@@ -31,10 +31,11 @@ Sommaire:
 
 ## Cahier des charges
 
+- Mise en oeuvre simplifiée pour les néophytes (scripts, images windows, ...)
 - Light
 - Aspect ratio préservé
-- Crt Shaders
-- Mise en oeuvre simplifiée pour les néophytes
+- Crt Shaders (en option)
+- Réseau
 - Contexte des jeux préservé **au maximum**
 
 
