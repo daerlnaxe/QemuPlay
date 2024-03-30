@@ -66,3 +66,15 @@ Options:
 
 Clients :  
 - Virt-Viewer (Lancer sous Windows comme Remote Viewer)
+
+
+<br>
+<br>
+
+### Telnet
+Permet d'utiliser la console pour piloter Qemu à distance.
+
+<br>
+
+Clients:
+- Putty

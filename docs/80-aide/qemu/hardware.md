@@ -1,3 +1,13 @@
+## Système
+
+- pentium2  
+    - cpu pentium2
+    - carte mère i440fx 
+
+
+<br>
+<hr>
+
 ## Cartes videos:
 - none   : rien  
 - std    : standard VGA (default) - can work with [JHRobotics SoftGpu](https://github.com/JHRobotics/softgpu)  
@@ -11,6 +21,7 @@
 (- device `ati-vga` 2 ati rage pro)
 
 <br>
+<hr>
 
 ## Cartes son:
 - sb16   : Creative Sound Blaster 16, bus isa (peut poser problème*)  
@@ -41,6 +52,7 @@ name "virtio-sound-device", bus virtio-bus
 name "virtio-sound-pci", bus PCI, alias "virtio-sound", desc   "Virtio Sound"  
 
 <br>
+<hr>
 
 ## Cartes réseaux
 - e1000  : 10/100/1000Mb (pci) 

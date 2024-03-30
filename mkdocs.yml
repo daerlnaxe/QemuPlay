@@ -34,12 +34,13 @@ nav:
     - './80-aide/sommaire.md'
     - 'Qemu' :
       - ./80-aide/qemu/hardware.md
+      - ./80-aide/qemu/images.md
       - 'Paramètres': ./80-aide/qemu/parametres.md
       - 'Réseau' : ./80-aide/qemu/network.md
     - 'ShaderGlass':
       - 'Index' : ./80-aide/shaderglass/index.md
     - 'Windows 98':
-      - affichage : ./80-aide/windows_98/affichage.md
+      - Affichage : ./80-aide/windows_98/affichage.md
     - 'MkDocs' : 80-aide/mkdocs.md      
   - 'Developpement':
     - 'Script Powershell': ./90-developpement/01-script_powershell.md
