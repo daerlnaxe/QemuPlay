@@ -5,6 +5,15 @@
 - v0.4 Work In Progress  
     - [x] Spice mode  
     - [x] Generating secret for Spice
+    - [x] Collection of Virtual Machines
+    - [x] Telnet intégration & port  
+        - Local  
+        - Lan  
+    - [ ] Spice intégration + port + ip
+        - Local
+        - Lan
+        - Secret
+        - Port
     - [ ] Remote control mode for Spice mode.  
     - [ ] Seeing SSH mode  
     - [ ] Launching putty if telnet mode  
