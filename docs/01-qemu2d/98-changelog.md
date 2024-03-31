@@ -14,9 +14,18 @@
         - Lan
         - Secret
         - Port
+    - [ ] Function to Verify VM
+    - [ ] Deport verification system for the selected vm
+    - [ ] Modify VM
     - [ ] Remote control mode for Spice mode.  
     - [ ] Seeing SSH mode  
+    - [ ] Putty Path
+    - [ ] Remote Viewer Path
+    - [ ] Function for path
+    - [ ] Sound parameter
     - [ ] Launching putty if telnet mode  
+    - [ ] Launching remote viewer if spice mode
+    - [ ] Function to rewrite call before to launch qemu
 - v0.3  
     - Video card choice added in configuration  
     - Code splitted in functions and modifications about the   configuration checks  
