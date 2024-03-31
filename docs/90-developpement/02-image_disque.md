@@ -21,3 +21,5 @@ Le gain de compression est ~80Mo soit dans les 10% entre le plus rapide et le pl
 
 
 !!! note "La compression permet de lever tout l'espace vide; c'est suffisant."
+
+!!! Warning "Ne pas utiliser `stockage`, prend l'espace réel."

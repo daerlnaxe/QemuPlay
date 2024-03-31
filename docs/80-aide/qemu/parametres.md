@@ -57,6 +57,11 @@ Activer le `menu boot`
 ```
 
 <br>
+
+## Carte réseau
+name: permet de définir un nom qui pourra être utilisée avec le moniteur (entre autres)
+
+<br>
 <hr>
 
 ## Affichage déporté
@@ -104,7 +109,77 @@ Syntaxe:
 <br>
 
 Options:  
+
 - Pas de password: `disable-ticketing=on`
+- Port: `port=<port>`
+- IP d'écoute : `addr=<addr>`
+- Forcer une version spécifique d'IP:
+    - `ipv4=on|off`
+    - `ipv6=on|off`
+    - `unix=on|off`
+- Secret: password-secret=<secret-id>
+- sasl=on|off
+
+
+
+* : définit l'ID d'un objet "secret" contenant le password à utiliser.
+
+----
+Secondaire:
+disable-copy-paste=on|off Disable copy paste between the client and the guest.
+
+
+disable-agent-file-xfer=on|off
+Disable spice-vdagent based file-xfer between the client and the guest.
+
+
+tls-port=<nr>
+Set the TCP port spice is listening on for encrypted channels.
+
+
+
+x509-dir=<dir>
+Set the x509 file directory. Expects same filenames as -vnc $display,x509=$dir
+
+x509-key-file=<file>; x509-key-password=<file>; x509-cert-file=<file>; x509-cacert-file=<file>; x509-dh-key-file=<file>
+The x509 file names can also be configured individually.
+
+tls-ciphers=<list>
+Specify which ciphers to use.
+
+tls-channel=[main|display|cursor|inputs|record|playback]; plaintext-channel=[main|display|cursor|inputs|record|playback]
+Force specific channel to be used with or without TLS encryption. The options can be specified multiple times to configure multiple channels. The special name “default” can be used to set the default mode. For channels which are not explicitly forced into one mode the spice client is allowed to pick tls/plaintext as he pleases.
+
+#### Compression
+image-compression=[auto_glz|auto_lz|quic|glz|lz|off]
+Configure image compression (lossless). Default is auto_glz.
+
+jpeg-wan-compression=[auto|never|always]; zlib-glz-wan-compression=[auto|never|always]
+Configure wan image compression (lossy for slow links). Default is auto.
+
+streaming-video=[off|all|filter]
+Configure video stream detection. Default is off.
+
+
+#### SASL
+Require that the client use SASL to authenticate with the spice. The exact choice of authentication method used is controlled from the system / user’s SASL configuration file for the ‘qemu’ service. This is typically found in /etc/sasl2/qemu.conf. If running QEMU as an unprivileged user, an environment variable SASL_CONF_PATH can be used to make it search alternate locations for the service config. While some SASL auth methods can also provide data encryption (eg GSSAPI), it is recommended that SASL always be combined with the ‘tls’ and ‘x509’ settings to enable use of SSL and server certificates. This ensures a data encryption preventing compromise of authentication credentials.
+
+
+
+agent-mouse=[on|off]
+Enable/disable passing mouse events via vdagent. Default is on.
+
+playback-compression=[on|off]
+Enable/disable audio stream compression (using celt 0.5.1). Default is on.
+
+seamless-migration=[on|off]
+Enable/disable spice seamless migration. Default is off.
+
+gl=[on|off]
+Enable/disable OpenGL context. Default is off.
+
+rendernode=<file>
+DRM render node for OpenGL rendering. If not specified, it will pick the first available. (Since 2.9)
 
 <br>
 
@@ -114,11 +189,18 @@ Clients :
 
 <br>
 <br>
+<hr>
 
-### Telnet
+## Moniteur
+### Controle à distance avec Telnet
 Permet d'utiliser la console pour piloter Qemu à distance.
+
+```
+```
 
 <br>
 
 Clients:
 - Putty
+
+

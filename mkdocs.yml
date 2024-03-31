@@ -33,7 +33,7 @@ nav:
   - 'Aide' :
     - './80-aide/sommaire.md'
     - 'Qemu' :
-      - ./80-aide/qemu/console.md
+      - ./80-aide/qemu/moniteur.md
       - ./80-aide/qemu/hardware.md
       - ./80-aide/qemu/images.md
       - 'Paramètres': ./80-aide/qemu/parametres.md

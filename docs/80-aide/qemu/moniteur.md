@@ -1,5 +1,5 @@
 # Présentation
-La console permet d'envoyer des commandes à QEMU, que cela soit pour:
+Le moniteur permet d'envoyer des commandes à QEMU, que cela soit pour:
 
 - Changer de disque
 - Collecter des informations
@@ -9,13 +9,13 @@ La console permet d'envoyer des commandes à QEMU, que cela soit pour:
 <br>
 
 
-## Lancement de la console
-### Lancement de la console en mode SDL
+## Lancement du moniteur
+### Lancement du moniteur en mode SDL
 
 **Windows**
 
-La console peut être lancée en pressant les touches [Ctrl]+[Alt]+[2]
-![sdl_console](../../assets/images/sdl_console.png)
+Le moniteur peut être lancé en pressant les touches [Ctrl]+[Alt]+[2]
+![sdl_moniteur](../../assets/images/sdl_moniteur.png)
 
 
 <br>

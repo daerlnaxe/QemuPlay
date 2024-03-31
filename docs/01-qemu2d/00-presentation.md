@@ -19,6 +19,7 @@ Ce package a pour but de permettre de créer une machine virtuelle sous QEMU afi
 - Machines de test
     - intel 4770k 16Go ddr3
     - Laptop I5 2.9Ghz
+- 10Go d'espace disque sur l'hôte (Espace revu à la hausse après des remarques).
 
 <br>
 <br>
