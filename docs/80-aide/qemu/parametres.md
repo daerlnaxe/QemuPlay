@@ -64,6 +64,16 @@ name: permet de définir un nom qui pourra être utilisée avec le moniteur (ent
 <br>
 <hr>
 
+## Boot
+Introduit par `-boot`
+
+- menu: affiche un menu de sélection
+- order
+  - nc : aucun ordre (utile pour ralentir si nécessaire)
+ 
+  
+<br>
+
 ## Affichage déporté
 ### VNC
 
