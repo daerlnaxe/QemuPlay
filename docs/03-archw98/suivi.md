@@ -8,10 +8,11 @@ Protocole
 - Test Jeu
 - Test son
 
-Mode DirectX7 2D:
+Mode DirectX7 => 2D:
 - KVM :
   - Starcraft : parfait
   - Fallout : parfait
+  - C&C 95 : parfait
 - No KVM : 
   - Starcraft : Erreur VMHAL9x.dll
   - Fallout : Lenteur extrême
