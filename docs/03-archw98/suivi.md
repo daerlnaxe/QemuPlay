@@ -10,11 +10,11 @@ Protocole
 
 Mode DirectX7 => 2D:
 - KVM :
-  - Starcraft : parfait
+  - Starcraft : parfait en HAL, 
   - Fallout : parfait
   - C&C 95 : parfait
 - No KVM : 
-  - Starcraft : Erreur VMHAL9x.dll
+  - Starcraft : Erreur VMHAL9x.dll, mettre system dans la base de registre.
   - Fallout : Lenteur extrême
 
 Mode 3D:
