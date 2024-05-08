@@ -33,6 +33,6 @@ Pour faire plus générique:
 - Commandos : Wine: Parfait
 - Fallout : Hal : Parfait
 - **C&C95** : HAL : Probleme unrecognised direct draw result code, wine autre bug
-- Starcraft : HAL : PARFAIT
-- 
+- Starcraft : HAL : Parfait
+- Dungeon Keeper : HAL : Parfait
 
