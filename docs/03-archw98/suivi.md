@@ -12,7 +12,8 @@ Mode DirectX7 => 2D:
 - KVM :
   - Starcraft : parfait en HAL, 
   - Fallout : parfait
-  - C&C 95 : parfait
+  - C&C 95 : !!! PROBLEME !!!
+  - Commandos : parfait
 - No KVM : 
   - Starcraft : Erreur VMHAL9x.dll, mettre system dans la base de registre.
   - Fallout : Lenteur extrême
