@@ -25,3 +25,14 @@ Mode 3D:
 - No KVM
   - Starcraft : Echec
   - Fallout : Echec
+ 
+
+Pour faire plus générique:
+- Starcraft: Hal : Parfait
+- Diablo : Hal : Parfait
+- Commandos : Wine: Parfait
+- Fallout : Hal : Parfait
+- **C&C95** : HAL : Probleme unrecognised direct draw result code, wine autre bug
+- Starcraft : HAL : PARFAIT
+- 
+
