@@ -12,7 +12,7 @@ Mode 2D:
 - KVM :
   - Starcraft : parfait
   - Fallout : parfait
-- No KVM : 12
+- No KVM : 
   - Starcraft : Erreur VMHAL9x.dll
   - Fallout : Lenteur extrême
 
