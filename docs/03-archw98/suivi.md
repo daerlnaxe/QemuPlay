@@ -8,7 +8,7 @@ Protocole
 - Test Jeu
 - Test son
 
-Mode 2D:
+Mode DirectX7 2D:
 - KVM :
   - Starcraft : parfait
   - Fallout : parfait
@@ -18,8 +18,8 @@ Mode 2D:
 
 Mode 3D:
 - KVM
-  - Starcraft :
-  - Fallout : 
+  - Starcraft : Echec
+  - Fallout : Echec
 - No KVM
-  - Starcraft :
-  - Fallout : 
+  - Starcraft : Echec
+  - Fallout : Echec
