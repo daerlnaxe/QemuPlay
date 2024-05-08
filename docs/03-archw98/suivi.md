@@ -10,16 +10,16 @@ Protocole
 
 Mode 2D:
 - KVM :
-  - Starcraft : ok
-  - Fallout : ok
+  - Starcraft : parfait
+  - Fallout : parfait
 - No KVM : 12
   - Starcraft : Erreur VMHAL9x.dll
-  - Fallout : ok
+  - Fallout : Lenteur extrême
 
 Mode 3D:
 - KVM
   - Starcraft :
-  - Fallout : ok
+  - Fallout : 
 - No KVM
   - Starcraft :
-  - Fallout : ok
+  - Fallout : 
