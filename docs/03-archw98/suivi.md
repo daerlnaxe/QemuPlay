@@ -35,4 +35,7 @@ Pour faire plus générique:
 - **C&C95** : HAL : Probleme unrecognised direct draw result code, wine autre bug
 - Starcraft : HAL : Parfait
 - Dungeon Keeper : HAL : Parfait
+- Total Annihilation : HAL : Parfait
+- Myst : HAL : parfait
+- **Half-Life** : HAL ok, Direct3d => stries blanches
 
