@@ -36,6 +36,6 @@ Pour faire plus générique:
 - Starcraft : HAL : Parfait
 - Dungeon Keeper : HAL : Parfait
 - Total Annihilation : HAL : Parfait
-- Myst : HAL : parfait
+- Myst : Wine ? : parfait
 - > **Half-Life** : HAL ok, Direct3d => stries blanches
 
