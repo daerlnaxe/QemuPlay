@@ -50,13 +50,6 @@ utiliser `-fda <lien>`
 
 <br>
 
-## Ordre de boot
-Activer le `menu boot`
-```bash
--boot menu=on
-```
-
-<br>
 
 ## Carte réseau
 name: permet de définir un nom qui pourra être utilisée avec le moniteur (entre autres)
@@ -68,6 +61,9 @@ name: permet de définir un nom qui pourra être utilisée avec le moniteur (ent
 Introduit par `-boot`
 
 - menu: affiche un menu de sélection
+```bash
+-boot menu=on
+```
 - order
   - nc : aucun ordre (utile pour ralentir si nécessaire)
  
@@ -88,6 +84,12 @@ Syntaxe:
 -vnc :<port>
 ```
 
+
+
+Clients:  
+- Real VNC Viewer
+- ...
+
 <br>
 
 #### Problème de décalage pointeur host/guest
@@ -98,16 +100,12 @@ Utiliser l'option ci-dessous qui est totalement compatible windows98
 
 <br>
 
-Clients:  
-- Real VNC Viewer
-- ...
-
-
 <br>
 
 ### Spice
 
 !!! success "Le son transite parfaitement entre deux machines distantes"
+!!! warning "Mettre le son sur spice"
 
 <br>
 
@@ -115,6 +113,8 @@ Syntaxe:
 ```
 -spice port=<port>[,options]
 ```
+
+
 
 <br>
 
