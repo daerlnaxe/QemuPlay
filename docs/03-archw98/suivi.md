@@ -32,10 +32,10 @@ Pour faire plus générique:
 - Diablo : Hal : Parfait
 - Commandos : Wine: Parfait
 - Fallout : Hal : Parfait
-- >> **C&C95** : HAL : Probleme unrecognised direct draw result code, wine autre bug
+- > **C&C95** : HAL : Probleme unrecognised direct draw result code, wine autre bug
 - Starcraft : HAL : Parfait
 - Dungeon Keeper : HAL : Parfait
 - Total Annihilation : HAL : Parfait
 - Myst : HAL : parfait
-- >> **Half-Life** : HAL ok, Direct3d => stries blanches
+- > **Half-Life** : HAL ok, Direct3d => stries blanches
 
