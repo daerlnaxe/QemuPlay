@@ -24,10 +24,11 @@
 ## Half Life
 |Hyper/Emu|Host|Réglage|API|Résolution Max|Commentaire|
 |-|-|-|-|-|-|
-VirtualBox: Réglé en OpenGL 1600x1200
-
+|VirtualBox|Windows 11|VMSVGA|OpenGL|1600x1200|Fluide|
 |86Box|Windows11|Voodoo2 x1|3DFX|800x600|Fluide|
 |86Box|Windows11|Voodoo2 x2|3DFX|1024x768|Fluide|
+
+ Réglé en OpenGL 1600x1200
 
 
 <br><br>
