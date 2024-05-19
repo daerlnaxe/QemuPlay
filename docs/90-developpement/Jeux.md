@@ -68,3 +68,10 @@ VirtualBox 7.0.16 and higher: Uncheck DX flags option:
 
 ![image](https://github.com/daerlnaxe/QemuPlay/assets/18460858/601eb020-0c86-4d9a-a3ae-e20a549511e3)
 
+
+# Wrappers
+NGlide
+
+## Severance 
+Fonctionnel avec NGlide
+
