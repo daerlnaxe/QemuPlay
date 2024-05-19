@@ -39,8 +39,8 @@ Ces paramètres sont à mettre autant sur Linux que sur Windows sinon l'accélé
   - 32 Bits pour le support de l'accération 3D
 
 
-Create new VM selecting Machine -> New in menu
-Type: Microsoft Windows, Version: Windows 98
+<br>
+
 Base memory: 512 MB (this is minimum (for vGPU10), but more 512 MB isn't recommended without additional patches!), CPU: 1
 Disk size: recommended is at least 20 GB for 98/Me (you can select less, but HDD becomes full faster). Select 2 GB if you plan install Windows 95. Tip: If you storing virtual machine on classic HDD, check Pre-allocate Full Size, because it leads to lower disk image fragmentation.
 Finish wizard
