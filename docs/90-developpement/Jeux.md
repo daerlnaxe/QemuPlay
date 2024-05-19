@@ -27,7 +27,10 @@ VirtualBox: Réglé en OpenGL 1600x1200
 
 <br><br>
 
-# Mise en place VirtualBox
+
+# Mise en place VirtualBox pour SoftGPU
+Ces paramètres sont à mettre autant sur Linux que sur Windows sinon l'accélération 3D ne se fera pas en passtrough
+
 - General:
   - Type: Linux
   - Version: Other Linux (32-bit)   
