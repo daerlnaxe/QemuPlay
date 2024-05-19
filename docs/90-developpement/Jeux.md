@@ -37,7 +37,7 @@ Ces paramètres sont à mettre autant sur Linux que sur Windows sinon l'accélé
     - Version: Other Linux (32-bit)   
   - Display
     -  Controleur Graphic **VMSVGA**
-    -  Mémoire: 128 Mo (Ne pas mettre moins, sinon L'accélération 3D peut se couper parfois)o memory to 128 MB
+    -  Mémoire: 128 Mo (Ne pas mettre moins, sinon L'accélération 3D peut se couper parfois). Plus peut amener d'autres [problèmes](https://github.com/JHRobotics/vmdisp9x/issues/2).
 - Guest:
   - 32 Bits pour le support de l'accération 3D
 
