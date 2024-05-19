@@ -31,10 +31,13 @@ VirtualBox: Réglé en OpenGL 1600x1200
 # Mise en place VirtualBox pour SoftGPU
 Ces paramètres sont à mettre autant sur Linux que sur Windows sinon l'accélération 3D ne se fera pas en passtrough
 
-- General:
-  - Type: Linux
-  - Version: Other Linux (32-bit)   
-- Controleur Graphic **VMSVGA**
+- Configuration VirtualBox
+  -  General:
+    - Type: Linux
+    - Version: Other Linux (32-bit)   
+  - Display
+    -  Controleur Graphic **VMSVGA**
+    -  Mémoire: 128 Mo (Ne pas mettre moins, sinon L'accélération 3D peut se couper parfois)o memory to 128 MB
 - Guest:
   - 32 Bits pour le support de l'accération 3D
 
@@ -45,10 +48,9 @@ Base memory: 512 MB (this is minimum (for vGPU10), but more 512 MB isn't recomme
 Disk size: recommended is at least 20 GB for 98/Me (you can select less, but HDD becomes full faster). Select 2 GB if you plan install Windows 95. Tip: If you storing virtual machine on classic HDD, check Pre-allocate Full Size, because it leads to lower disk image fragmentation.
 Finish wizard
 Open VM setting
-In General change type to Linux and version to Other Linux (32-bit) => This setting haven't any effect to hardware configuration but allow you to set GPU type through GUI.
-Now in Display
 
-set video memory to 128 MB (VBox sometimes turn off GPU HW acceleration if this value is lower). More on this issue and more about VRAM usability.
+
+
 Check enable 3D Acceleration
 Optional adjustment
 set USB controller to USB 1.1 (OHCI) for 98/Me, or turn USB off for 95
