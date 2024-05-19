@@ -19,11 +19,16 @@
 |86Box|Windows11|Voodoo2 x1|3DFX|800x600|Fluide|
 |VirtualBox|ArchW98|VBOXVGA|D3D|800x600|Fluide|
 
+<br>
 
 ## Half Life
+|Hyper/Emu|Host|Réglage|API|Résolution Max|Commentaire|
+|-|-|-|-|-|-|
 VirtualBox: Réglé en OpenGL 1600x1200
-86Box Voodoo2x1 : 800x600
-86Box Voodoo2x2 : 1024x768
+
+|86Box|Windows11|Voodoo2 x1|3DFX|800x600|Fluide|
+|86Box|Windows11|Voodoo2 x2|3DFX|1024x768|Fluide|
+
 
 <br><br>
 
