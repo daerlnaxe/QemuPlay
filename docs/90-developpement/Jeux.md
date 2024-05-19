@@ -56,3 +56,6 @@ Install system - Windows 98 SE is highly recommended (for newer CPU, you need my
 Optional increase memory - especially vGPU10 driver is relative heavy about RAM usage. Apply PATCHMEM by rloew, after it you can increase base RAM (768 MB or 1024 MB should be enough)
 Insert SoftGPU iso (can be downloaded in Releases) and run softgpu.exe
 VirtualBox 7.0.16 and higher: Uncheck DX flags option:
+
+![image](https://github.com/daerlnaxe/QemuPlay/assets/18460858/601eb020-0c86-4d9a-a3ae-e20a549511e3)
+
