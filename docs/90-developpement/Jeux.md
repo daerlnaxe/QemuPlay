@@ -35,7 +35,8 @@ Ces paramètres sont à mettre autant sur Linux que sur Windows sinon l'accélé
   - Type: Linux
   - Version: Other Linux (32-bit)   
 - Controleur Graphic **VMSVGA**
-- 
+- Guest:
+  - 32 Bits pour le support de l'accération 3D
 
 
 Create new VM selecting Machine -> New in menu
