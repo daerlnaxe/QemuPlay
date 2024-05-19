@@ -28,6 +28,13 @@ VirtualBox: Réglé en OpenGL 1600x1200
 <br><br>
 
 # Mise en place VirtualBox
+- General:
+  - Type: Linux
+  - Version: Other Linux (32-bit)   
+- Controleur Graphic **VMSVGA**
+- 
+
+
 Create new VM selecting Machine -> New in menu
 Type: Microsoft Windows, Version: Windows 98
 Base memory: 512 MB (this is minimum (for vGPU10), but more 512 MB isn't recommended without additional patches!), CPU: 1
@@ -36,7 +43,7 @@ Finish wizard
 Open VM setting
 In General change type to Linux and version to Other Linux (32-bit) => This setting haven't any effect to hardware configuration but allow you to set GPU type through GUI.
 Now in Display
-Set Graphic Controller to VMSVGA
+
 set video memory to 128 MB (VBox sometimes turn off GPU HW acceleration if this value is lower). More on this issue and more about VRAM usability.
 Check enable 3D Acceleration
 Optional adjustment
