@@ -10,8 +10,11 @@
 
 
 ## Unreal
-VirtualBox: Réglé en D3D 1920x1080 
-86Box Voodoo2x1 : 800x600 
+
+|Hyper/Emu|Host|Réglage|API|Résolution Max|Commentaire|
+|-|-|-|-|-|-|-|
+|VirtualBox|Windows 10|VMSVGA**|D3D|1920x1080 |Fluide|
+|86Box|Windows11|Voodoo2 x1|3DFX|800x600|Fluide|
 
 
 ## Half Life
