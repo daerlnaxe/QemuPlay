@@ -4,8 +4,9 @@
 |[Battlezone](https://www.pcgamingwiki.com/wiki/Battlezone)|166mhz|1998|D3D|Windows|
 |[Requiem](https://www.pcgamingwiki.com/wiki/Requiem:_Avenging_Angel)|200mhz||||
 
+<br><br>
 
-# 
+# Jeux testés
 |Jeu|OS|API|DoxBox|QEMU*|VMWARE*|VirtualBox*|86Box|Wrappers|Notes|
 |-|-|-|-|-|-|-|-|-|-|
 | Command & Conquer|DOS|DDRaw | TB |Non|Non|Non|Non|Non||
