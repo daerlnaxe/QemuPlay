@@ -1,3 +1,10 @@
+# Panel de jeux
+|Nom|CPU|-|
+|-|-|-|
+|Requiem|200mhz||
+
+
+# 
 |Jeu|OS|API|DoxBox|QEMU*|VMWARE*|VirtualBox*|86Box|Wrappers|Notes|
 |-|-|-|-|-|-|-|-|-|-|
 | Command & Conquer|DOS|DDRaw | TB |Non|Non|Non|Non|Non||
