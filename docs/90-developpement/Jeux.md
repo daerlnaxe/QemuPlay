@@ -2,7 +2,7 @@
 |Nom|CPU|Année|API|OS|
 |-|-|-|-|-|
 |[Battlezone](https://www.pcgamingwiki.com/wiki/Battlezone)|166mhz|1998|D3D|Windows|
-|Requiem|200mhz||||
+|[Requiem](https://www.pcgamingwiki.com/wiki/Requiem:_Avenging_Angel)|200mhz||||
 
 
 # 
