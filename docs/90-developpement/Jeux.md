@@ -1,8 +1,8 @@
 # Panel de jeux
-|Nom|CPU|-|
-|-|-|-|
-|Battlezone|166mhz||
-|Requiem|200mhz||
+|Nom|CPU|Année|API|
+|-|-|-|-|
+|Battlezone|166mhz|1998|D3D|
+|Requiem|200mhz|||
 
 
 # 
