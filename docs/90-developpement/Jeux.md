@@ -1,7 +1,7 @@
 # Panel de jeux
 |Nom|CPU|Année|API|
 |-|-|-|-|
-|Battlezone|166mhz|1998|D3D|
+|[Battlezone](https://www.pcgamingwiki.com/wiki/Battlezone)|166mhz|1998|D3D|
 |Requiem|200mhz|||
 
 
