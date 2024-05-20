@@ -1,6 +1,7 @@
 # Panel de jeux
 |Nom|CPU|-|
 |-|-|-|
+|Battlezone|166mhz||
 |Requiem|200mhz||
 
 
