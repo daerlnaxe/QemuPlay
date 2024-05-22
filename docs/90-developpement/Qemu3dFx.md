@@ -21,3 +21,7 @@ git clone https://github.com/kjliew/qemu-3dfx.git
 ```
 cd qemu-3dfx
 ```
+- Téléchargement de
+```
+wget https://download.qemu.org/qemu-8.2.1.tar.xz
+```
