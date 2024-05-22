@@ -1,9 +1,9 @@
 ## Préparation
 !!! Réalisé sur ArchLinuxx
 
-- Installation de Git
+- Installation de Git, wget
 ```
-sudo pacman -S git
+sudo pacman -S git wget
 ```
 
 <br>
@@ -16,4 +16,8 @@ mkdir qemu3dfx_compil && cd qemu3dfx_compil
 - Clone du dépôt
 ```
 git clone https://github.com/kjliew/qemu-3dfx.git
+```
+- On entre dans le dépôt
+```
+cd qemu-3dfx
 ```
