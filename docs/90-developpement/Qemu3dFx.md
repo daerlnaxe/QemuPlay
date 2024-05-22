@@ -21,7 +21,12 @@ git clone https://github.com/kjliew/qemu-3dfx.git
 ```
 cd qemu-3dfx
 ```
-- Téléchargement de
+- Téléchargement des sources de qemu 8.2.1
 ```
 wget https://download.qemu.org/qemu-8.2.1.tar.xz
 ```
+- Extraction des sources
+```
+tar xf qemu-8.2.1.tar.xz
+```
+
