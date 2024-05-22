@@ -1,9 +1,9 @@
 ## Préparation
 !!! Réalisé sur ArchLinuxx
 
-- Installation de Git, wget, rsync
+- Installation de Git, wget, rsync, patch
 ```
-sudo pacman -S git wget rsync
+sudo pacman -S git wget rsync patch
 ```
 
 <br>
