@@ -6,6 +6,8 @@
 sudo pacman -S git
 ```
 
+<br>
+
 ## Compilation
 - Création d'un dossier pour cloner le dépôt
 ```
