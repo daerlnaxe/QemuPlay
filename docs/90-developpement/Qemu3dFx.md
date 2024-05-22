@@ -29,7 +29,7 @@ wget https://download.qemu.org/qemu-8.2.1.tar.xz
 ```
 tar xf qemu-8.2.1.tar.xz
 ```
-- Synchronisation de ../qemu-0/hw/3dfx & ../qemu-1/hw/mesa vers ./hw/
+- Synchronisation de `../qemu-0/hw/3dfx` & `../qemu-1/hw/mesa` vers `./hw/` (Attention de ne pas laisser un `/` à la fin des sources)
 ```
 cd qemu-8.2.1
 rsync -r ../qemu-0/hw/3dfx ../qemu-1/hw/mesa ./hw/
