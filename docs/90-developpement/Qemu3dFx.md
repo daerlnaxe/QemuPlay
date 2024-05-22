@@ -34,4 +34,8 @@ tar xf qemu-8.2.1.tar.xz
 cd qemu-8.2.1
 rsync -r ../qemu-0/hw/3dfx ../qemu-1/hw/mesa ./hw/
 ```
+-
+```
+patch -p0 -i ../00-qemu82x-mesa-glide.patch
+```
 
