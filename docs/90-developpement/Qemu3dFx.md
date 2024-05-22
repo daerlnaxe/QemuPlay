@@ -29,4 +29,8 @@ wget https://download.qemu.org/qemu-8.2.1.tar.xz
 ```
 tar xf qemu-8.2.1.tar.xz
 ```
+- Synchronisation de ../qemu-0/hw/3dfx & ../qemu-1/hw/mesa vers ./hw/
+```
+rsync -r ../qemu-0/hw/3dfx ../qemu-1/hw/mesa ./hw/
+```
 
