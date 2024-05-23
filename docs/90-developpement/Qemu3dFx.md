@@ -5,6 +5,10 @@
 ```
 sudo pacman -S git wget rsync patch
 ```
+- Installation du builder
+```
+sudo pacman -S ninja
+```
 
 <br>
 
