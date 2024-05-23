@@ -59,3 +59,9 @@ $ bash ../scripts/sign_commit
 mkdir ../build && cd ../build
 ../qemu-8.2.1/configure && make
 ```
+
+
+## Debug
+`ERROR: Unrecognized host OS (uname -s reports 'Linux')` : Absence de compilateur C
+
+
