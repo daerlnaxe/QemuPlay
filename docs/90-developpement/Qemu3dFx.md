@@ -11,8 +11,7 @@ sudo pacman -S ninja
 ```
 - Installation du générateur de documentation Sphinx
 ```
-sudo pacman -S python-sphinx
-
+sudo pacman -S python-sphinx python-sphinx_rtd_theme
 ```
 
 
