@@ -13,7 +13,10 @@ sudo pacman -S ninja
 ```
 sudo pacman -S python-sphinx python-sphinx_rtd_theme
 ```
-
+- Installation d'un compilateur C
+```
+sudo pacman -S gcc
+```
 
 <br>
 
