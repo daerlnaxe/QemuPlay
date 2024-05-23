@@ -5,10 +5,16 @@
 ```
 sudo pacman -S git wget rsync patch
 ```
-- Installation du builder
+- Installation du builder Ninja
 ```
 sudo pacman -S ninja
 ```
+- Installation du générateur de documentation Sphinx
+```
+sudo pacman -S python-sphinx
+
+```
+
 
 <br>
 
