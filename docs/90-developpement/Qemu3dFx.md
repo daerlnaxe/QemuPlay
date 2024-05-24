@@ -5,16 +5,23 @@
 ```
 sudo pacman -S git wget rsync patch
 ```
+
 - Installation du builder Ninja
 ```
 sudo pacman -S ninja
 ```
+
 !!! souci à la compilation
-~~~- Installation du générateur de documentation Sphinx~~~~
+
+- ~~Installation du générateur de documentation Sphinx~~
+
 ```
 sudo pacman -S python-sphinx python-sphinx_rtd_theme
-!!!
 ```
+
+!!! souci à la compilation
+
+
 - Installation d'un compilateur C
 ```
 sudo pacman -S gcc
@@ -27,6 +34,11 @@ sudo pacman -S pkgconf
 ```
 sudo pacman -S flex bison meson
 ```
+
+<br>
+
+
+!!! A voir : sndio(midi), iasl(décompileur?), cgcc, appleframeworks, rutabaga_gfx_ffi, blkio, rados, librbd.h,lzfse.h,rdma_cma.h, ibverbs, xencontrol, xenstore, xenctrl, xendevicemodel, xenforeigmemeory...., u2f-emu, canokey-qemu, libpmem, libselinux, valgrind.h, sys/disk.h, sys/ioccom.h, sys/kcov.h, _aligned_malloc, sched_getcpu, pthread_fchdir_np, optreset, sigev_notify_thread_id, 
 
 <br>
 
