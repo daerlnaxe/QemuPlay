@@ -17,7 +17,10 @@ sudo pacman -S python-sphinx python-sphinx_rtd_theme
 ```
 sudo pacman -S gcc
 ```
-
+- Installation (sur et vital) pkg-config
+```
+sudo pacman -S pkgconf
+```
 <br>
 
 ## Compilation
