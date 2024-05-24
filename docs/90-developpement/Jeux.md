@@ -7,16 +7,23 @@
 <br><br>
 
 # Jeux testés
+## Jeux 2D
 |Jeu|OS|API|DoxBox|QEMU*|VMWARE*|VirtualBox*|86Box|Wrappers|Notes|
 |-|-|-|-|-|-|-|-|-|-|
 | Command & Conquer|DOS|DDRaw | TB |Non|Non|Non|Non|Non||
 | Command & Conquer GOLD|Win9x|??? |Non|Err|Err|EE|TB|Perte réseau| La version gold dézoome pour afficher en 640x480, pose problème avec les pilotes JHRobotics et divers hyperviseurs de niveau 2. |
 |Starcraft|Win98|DDRAW/DirectX2|Non|TB|TB|TB|TB|???|Simple à tester|
 
-|Unreal|Win98|DirectX5|Non||
+## Jeux 3D
+|Jeu|OS|API|DoxBox|QEMU3DFX|VMWARE*|VirtualBox*|86Box|Wrappers|Notes|
+|-|-|-|-|-|-|-|-|-|-|
+|Battlezone|Win98|DirectX5|-|-|TB|-|-|???||
+|Half Life|Win98|DirectX?|-|-|TB|-|-||
+|Unreal|Win98|DirectX5|-|-|TB|-|-||
 
 
 *SoftGPU
+*Qemu nécessite la compilation 3DFX pour accélérer la 3D.
 
 <br><br>
 
