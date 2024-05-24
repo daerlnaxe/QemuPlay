@@ -39,6 +39,7 @@ sudo pacman -S flex bison meson
 
 
 !!! A voir : sndio(midi), iasl(décompileur?), cgcc, appleframeworks, rutabaga_gfx_ffi, blkio, rados, librbd.h,lzfse.h,rdma_cma.h, ibverbs, xencontrol, xenstore, xenctrl, xendevicemodel, xenforeigmemeory...., u2f-emu, canokey-qemu, libpmem, libselinux, valgrind.h, sys/disk.h, sys/ioccom.h, sys/kcov.h, _aligned_malloc, sched_getcpu, pthread_fchdir_np, optreset, sigev_notify_thread_id, 
+indent, gvnc-1.0, sphinx-build, 
 
 <br>
 
