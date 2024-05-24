@@ -25,9 +25,10 @@
 |Hyper/Emu|Host|Réglage|API|Résolution Max|Commentaire|
 |-|-|-|-|-|-|
 |VirtualBox|Windows 10|VMSVGA**|D3D|1920x1080 |Fluide|
+|VirtualBox|ArchW98|VMSVGA**|D3D|1024x768|Fluide|
 |86Box|Windows11|Voodoo2 x1|3DFX|800x600|Fluide|
 |VirtualBox|ArchW98|VBOXVGA|D3D|800x600|Fluide|
-|VirtualBox|ArchW98|VMSVGA**|D3D|1024x768|Fluide|
+
 
 <br>
 
@@ -35,10 +36,11 @@
 |Hyper/Emu|Host|Réglage|API|Résolution Max|Commentaire|
 |-|-|-|-|-|-|
 |VirtualBox|Windows 11|VMSVGA|OpenGL|1600x1200|Fluide|
+|VirtualBox|ArchW98|VMSVGA|OpenGL|1600x1200|Fluide|
 |86Box|Windows11|Voodoo2 x1|3DFX|800x600|Fluide|
 |86Box|Windows11|Voodoo2 x2|3DFX|1024x768|Fluide|
 
- Réglé en OpenGL 1600x1200
+ 
 
 
 <br><br>
