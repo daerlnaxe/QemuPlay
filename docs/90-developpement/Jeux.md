@@ -27,6 +27,7 @@
 |VirtualBox|Windows 10|VMSVGA**|D3D|1920x1080 |Fluide|
 |86Box|Windows11|Voodoo2 x1|3DFX|800x600|Fluide|
 |VirtualBox|ArchW98|VBOXVGA|D3D|800x600|Fluide|
+|VirtualBox|ArchW98|VMSVGA**|D3D|1024x768|Fluide|
 
 <br>
 
