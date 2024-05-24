@@ -19,7 +19,7 @@
 ## Jeux 3D
 |Jeu|OS|API|DoxBox|QEMU3DFX|VMWARE*|VirtualBox*|86Box|Wrappers|Notes|
 |-|-|-|-|-|-|-|-|-|-|
-|Battlezone|Win98|DirectX5|-|-|TB|-|TB|???||
+|Battlezone|Win98|DirectX5|-|-|TB|-|-|???||
 |Half Life|Win98|DirectX?|-|-|TB|-|TB||
 |Unreal|Win98|DirectX5|-|-|TB|-|TB||
 
