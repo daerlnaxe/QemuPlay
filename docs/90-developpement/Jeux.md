@@ -14,12 +14,14 @@
 | Command & Conquer GOLD|Win9x|??? |Non|Err|Err|EE|TB|Perte réseau| La version gold dézoome pour afficher en 640x480, pose problème avec les pilotes JHRobotics et divers hyperviseurs de niveau 2. |
 |Starcraft|Win98|DDRAW/DirectX2|Non|TB|TB|TB|TB|???|Simple à tester|
 
+<br>
+
 ## Jeux 3D
 |Jeu|OS|API|DoxBox|QEMU3DFX|VMWARE*|VirtualBox*|86Box|Wrappers|Notes|
 |-|-|-|-|-|-|-|-|-|-|
-|Battlezone|Win98|DirectX5|-|-|TB|-|-|???||
-|Half Life|Win98|DirectX?|-|-|TB|-|-||
-|Unreal|Win98|DirectX5|-|-|TB|-|-||
+|Battlezone|Win98|DirectX5|-|-|TB|-|TB|???||
+|Half Life|Win98|DirectX?|-|-|TB|-|TB||
+|Unreal|Win98|DirectX5|-|-|TB|-|TB||
 
 
 *SoftGPU
@@ -47,6 +49,8 @@
 |VirtualBox|ArchW98|VMSVGA|OpenGL|1600x1200|Fluide|
 |86Box|Windows11|Voodoo2 x1|3DFX|800x600|Fluide|
 |86Box|Windows11|Voodoo2 x2|3DFX|1024x768|Fluide|
+
+<br>
 
 ## Battlezone
 |Hyper/Emu|Host|Réglage|API|Résolution Max|Commentaire|
