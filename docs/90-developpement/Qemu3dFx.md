@@ -21,9 +21,9 @@ sudo pacman -S gcc
 ```
 sudo pacman -S pkgconf
 ```
-- Installation (probable) bisons, flex
+- Installation (probable) bisons, flex, meson
 ```
-sudo pacman -S flex bison
+sudo pacman -S flex bison meson
 ```
 
 <br>
