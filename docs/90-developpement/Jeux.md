@@ -12,7 +12,8 @@
 | Command & Conquer|DOS|DDRaw | TB |Non|Non|Non|Non|Non||
 | Command & Conquer GOLD|Win9x|??? |Non|Err|Err|EE|TB|Perte réseau| La version gold dézoome pour afficher en 640x480, pose problème avec les pilotes JHRobotics et divers hyperviseurs de niveau 2. |
 |Starcraft|Win98|DDRAW/DirectX2|Non|TB|TB|TB|TB|???|Simple à tester|
-|Unreal|Win98|
+
+|Unreal|Win98|DirectX5|Non||
 
 
 *SoftGPU
@@ -40,7 +41,11 @@
 |86Box|Windows11|Voodoo2 x1|3DFX|800x600|Fluide|
 |86Box|Windows11|Voodoo2 x2|3DFX|1024x768|Fluide|
 
- 
+## Battlezone
+|Hyper/Emu|Host|Réglage|API|Résolution Max|Commentaire|
+|-|-|-|-|-|-|
+|VirtualBox|ArchW98|VMSVGA**|????|1152x864|Fluide|
+
 
 
 <br><br>
