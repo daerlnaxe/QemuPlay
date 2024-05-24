@@ -9,9 +9,11 @@ sudo pacman -S git wget rsync patch
 ```
 sudo pacman -S ninja
 ```
-- Installation du générateur de documentation Sphinx
+!!! souci à la compilation
+~~~- Installation du générateur de documentation Sphinx~~~~
 ```
 sudo pacman -S python-sphinx python-sphinx_rtd_theme
+!!!
 ```
 - Installation d'un compilateur C
 ```
@@ -21,7 +23,7 @@ sudo pacman -S gcc
 ```
 sudo pacman -S pkgconf
 ```
-- Installation (probable) bisons, flex, meson
+- Installation (probable) bisons, flex, meson,
 ```
 sudo pacman -S flex bison meson
 ```
