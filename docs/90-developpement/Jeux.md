@@ -63,9 +63,10 @@
 <br>
 
 ## Messiah
-|Hyper/Emu|Host|Réglage|API|Résolution Max|Commentaire|
-|-|-|-|-|-|-|
-|VirtualBox|ArchW98|VMSVGA**|????|1024x768|Problèmes de son en sb16, mettre en 3DFx|
+|Hyper/Emu|Host|Réglage|API|Son|Résolution Max|Commentaire|
+|-|-|-|-|-|-|-|
+|VirtualBox|ArchW98|VMSVGA**|????||1024x768|Problèmes de son en sb16, mettre en 3DFx|
+|VMWare|Windows|VMWare**|????|SB 128 PCI|1600x1200|mettre en 3DFx|
 
 
 <br><br>
