@@ -60,6 +60,13 @@
 |VirtualBox|ArchW98|VMSVGA**|????|1152x864|Fluide|
 
 
+<br>
+
+## Messiah
+|Hyper/Emu|Host|Réglage|API|Résolution Max|Commentaire|
+|-|-|-|-|-|-|
+|VirtualBox|ArchW98|VMSVGA**|????|1024x768|Problèmes de son en sb16, mettre en 3DFx|
+
 
 <br><br>
 
