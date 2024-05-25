@@ -1,10 +1,10 @@
 # Panel de jeux
-|Nom|CPU|Année|API|OS|
-|-|-|-|-|-|
-|[Battlezone](https://www.pcgamingwiki.com/wiki/Battlezone)|166mhz|1998|D3D|Windows|
-|[Requiem](https://www.pcgamingwiki.com/wiki/Requiem:_Avenging_Angel)|200mhz|2000|D3D/Glide|Windows|
-|[Deus Ex](https://www.pcgamingwiki.com/wiki/Requiem:_Avenging_Angel)|200mhz|2000|D3D/Glide|Windows|
-|[Jedi Knight](https://www.pcgamingwiki.com/wiki/Requiem:_Avenging_Angel)|200mhz|2000|D3D/Glide|Windows|
+|Nom|CPU|Année|API|OS|Note|
+|-|-|-|-|-|-|
+|[Battlezone](https://www.pcgamingwiki.com/wiki/Battlezone)|166mhz|1998|D3D|Windows| Remaster ?|
+|[Requiem](https://www.pcgamingwiki.com/wiki/Requiem:_Avenging_Angel)|200mhz|2000|D3D/Glide|Windows|?|
+|[Deus Ex](https://www.pcgamingwiki.com/wiki/Requiem:_Avenging_Angel)|200mhz|2000|D3D/Glide|Windows|?|
+|[Jedi Knight](https://www.pcgamingwiki.com/wiki/Star_Wars:_Jedi_Knight_-_Dark_Forces_II)|90mhz|1997|DirectX5|Windows| Remasterisé |
 
 <br><br>
 
