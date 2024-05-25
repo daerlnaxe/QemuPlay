@@ -4,6 +4,7 @@
 |[Battlezone](https://www.pcgamingwiki.com/wiki/Battlezone)|166mhz|1998|D3D|Windows|
 |[Requiem](https://www.pcgamingwiki.com/wiki/Requiem:_Avenging_Angel)|200mhz|2000|D3D/Glide|Windows|
 |[Deus Ex](https://www.pcgamingwiki.com/wiki/Requiem:_Avenging_Angel)|200mhz|2000|D3D/Glide|Windows|
+|[Jedi Knight](https://www.pcgamingwiki.com/wiki/Requiem:_Avenging_Angel)|200mhz|2000|D3D/Glide|Windows|
 
 <br><br>
 
