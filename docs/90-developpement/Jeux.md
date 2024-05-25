@@ -3,8 +3,9 @@
 |-|-|-|-|-|-|
 |[Battlezone](https://www.pcgamingwiki.com/wiki/Battlezone)|166mhz|1998|D3D|Windows| Remaster ?|
 |[Requiem](https://www.pcgamingwiki.com/wiki/Requiem:_Avenging_Angel)|200mhz|2000|D3D/Glide|Windows|?|
-|[Deus Ex](https://www.pcgamingwiki.com/wiki/Requiem:_Avenging_Angel)|200mhz|2000|D3D/Glide|Windows|?|
 |[Jedi Knight](https://www.pcgamingwiki.com/wiki/Star_Wars:_Jedi_Knight_-_Dark_Forces_II)|90mhz|1997|DirectX5|Windows| Remasterisé |
+|[Deus Ex](https://www.pcgamingwiki.com/wiki/Requiem:_Avenging_Angel)|200mhz|2000|D3D/Glide|Windows|?|
+
 
 <br><br>
 
@@ -25,6 +26,7 @@
 |Half Life|Win98|DirectX?|-|-|TB|-|TB||
 |Unreal|Win98|DirectX5|-|-|TB|-|TB||
 |Messiah|Win98|Direct ??|Non|-|TB|Err|-||
+|Jedi Knight|Win98|Direct ?|Non|-|-|TB|-||
 
 
 *SoftGPU
@@ -70,6 +72,14 @@
 |VMWare|Windows 10|VMWare**|????|SB 128 PCI|1600x1200|mettre en 3DFx|
 |VirtualBox|ArchW98|VMSVGA**|????|AC97|1024x768|mettre en 3DFx|
 |VirtualBox|ArchW98|VMSVGA**|????|SB16|1024x768|Problèmes de son, mettre en 3DF|
+
+<br>
+
+##
+|Hyper/Emu|Host|Réglage|API|Son|Résolution Max|Commentaire|
+|-|-|-|-|-|-|-|
+|VirtualBox|ArchW98|VMSVGA**|????|AC97|1920x1080||
+
 
 
 <br><br>
